@@ -1,0 +1,193 @@
+2024-11-17 02:40:43.741000+00:00 - LD_LIBRARY_PATH: /fmi/python/build
+2024-11-17 02:40:44.168000+00:00 - START RequestId: adbca9aa-fe3a-4fd6-b4e7-5e7b46ae71f1 Version: $LATEST
+2024-11-17 02:40:44.169000+00:00 - received:  {'S3_BUCKET': 'cosmicai-data', 'S3_OBJECT_NAME': 'Anomaly Detection', 'SCRIPT': '/tmp/Anomaly Detection/Inference/inference.py', 'S3_OBJECT_TYPE': 'folder', 'WORLD_SIZE': '110', 'RANK': '18', 'DATA_BUCKET': 'cosmicai-data', 'DATA_PREFIX': '75MB', 'DATA_PATH': '75MB/115.pt', 'RESULT_PATH': 'result-partition-75MB/8GB/2', 'BATCH_SIZE': 512}
+2024-11-17 02:40:44.170000+00:00 - parsing args
+2024-11-17 02:40:44.171000+00:00 - executing script: Anomaly Detection
+2024-11-17 02:40:44.371000+00:00 - s3key: Anomaly Detection/Fine_Tune_Model/Mixed_Inception_z_VITAE_Base_Img_Full_New_Full.pt path: /tmp/Anomaly Detection/Fine_Tune_Model filename: Mixed_Inception_z_VITAE_Base_Img_Full_New_Full.pt
+2024-11-17 02:40:44.371000+00:00 - creating os path: /tmp/Anomaly Detection/Fine_Tune_Model
+2024-11-17 02:40:44.372000+00:00 - downloading key: Anomaly Detection/Fine_Tune_Model/Mixed_Inception_z_VITAE_Base_Img_Full_New_Full.pt to /tmp/Anomaly Detection/Fine_Tune_Model/Mixed_Inception_z_VITAE_Base_Img_Full_New_Full.pt
+2024-11-17 02:40:44.734000+00:00 - s3key: Anomaly Detection/Inference/__init__.py path: /tmp/Anomaly Detection/Inference filename: __init__.py
+2024-11-17 02:40:44.734000+00:00 - creating os path: /tmp/Anomaly Detection/Inference
+2024-11-17 02:40:44.734000+00:00 - downloading key: Anomaly Detection/Inference/__init__.py to /tmp/Anomaly Detection/Inference/__init__.py
+2024-11-17 02:40:44.760000+00:00 - s3key: Anomaly Detection/Inference/inference.py path: /tmp/Anomaly Detection/Inference filename: inference.py
+2024-11-17 02:40:44.760000+00:00 - downloading key: Anomaly Detection/Inference/inference.py to /tmp/Anomaly Detection/Inference/inference.py
+2024-11-17 02:40:44.796000+00:00 - s3key: Anomaly Detection/NormalCell.py path: /tmp/Anomaly Detection filename: NormalCell.py
+2024-11-17 02:40:44.796000+00:00 - downloading key: Anomaly Detection/NormalCell.py to /tmp/Anomaly Detection/NormalCell.py
+2024-11-17 02:40:44.831000+00:00 - s3key: Anomaly Detection/Plot_Redshift.py path: /tmp/Anomaly Detection filename: Plot_Redshift.py
+2024-11-17 02:40:44.831000+00:00 - downloading key: Anomaly Detection/Plot_Redshift.py to /tmp/Anomaly Detection/Plot_Redshift.py
+2024-11-17 02:40:44.864000+00:00 - s3key: Anomaly Detection/blocks/model_vit_inception.py path: /tmp/Anomaly Detection/blocks filename: model_vit_inception.py
+2024-11-17 02:40:44.864000+00:00 - creating os path: /tmp/Anomaly Detection/blocks
+2024-11-17 02:40:44.864000+00:00 - downloading key: Anomaly Detection/blocks/model_vit_inception.py to /tmp/Anomaly Detection/blocks/model_vit_inception.py
+2024-11-17 02:40:44.900000+00:00 - s3key: Anomaly Detection/blocks/photoz.py path: /tmp/Anomaly Detection/blocks filename: photoz.py
+2024-11-17 02:40:44.900000+00:00 - downloading key: Anomaly Detection/blocks/photoz.py to /tmp/Anomaly Detection/blocks/photoz.py
+2024-11-17 02:41:24.410000+00:00 - executed script
+2024-11-17 02:41:24.412000+00:00 - END RequestId: adbca9aa-fe3a-4fd6-b4e7-5e7b46ae71f1
+2024-11-17 02:41:24.412000+00:00 - REPORT RequestId: adbca9aa-fe3a-4fd6-b4e7-5e7b46ae71f1       Duration: 40243.33 ms   Billed Duration: 40908 ms       Memory Size: 10240 MB      Max Memory Used: 5948 MB        Init Duration: 663.81 ms
+2024-11-17 02:42:05.950000+00:00 - START RequestId: dbbce7bf-680b-4189-9037-bf2b54bd43ab Version: $LATEST
+2024-11-17 02:42:05.951000+00:00 - received:  {'S3_BUCKET': 'cosmicai-data', 'S3_OBJECT_NAME': 'Anomaly Detection', 'SCRIPT': '/tmp/Anomaly Detection/Inference/inference.py', 'S3_OBJECT_TYPE': 'folder', 'WORLD_SIZE': '110', 'RANK': '9', 'DATA_BUCKET': 'cosmicai-data', 'DATA_PREFIX': '75MB', 'DATA_PATH': '75MB/107.pt', 'RESULT_PATH': 'result-partition-75MB/8GB/3', 'BATCH_SIZE': 512}
+2024-11-17 02:42:05.952000+00:00 - parsing args
+2024-11-17 02:42:05.952000+00:00 - executing script: Anomaly Detection
+2024-11-17 02:42:05.999000+00:00 - s3key: Anomaly Detection/Fine_Tune_Model/Mixed_Inception_z_VITAE_Base_Img_Full_New_Full.pt path: /tmp/Anomaly Detection/Fine_Tune_Model filename: Mixed_Inception_z_VITAE_Base_Img_Full_New_Full.pt
+2024-11-17 02:42:05.999000+00:00 - downloading key: Anomaly Detection/Fine_Tune_Model/Mixed_Inception_z_VITAE_Base_Img_Full_New_Full.pt to /tmp/Anomaly Detection/Fine_Tune_Model/Mixed_Inception_z_VITAE_Base_Img_Full_New_Full.pt
+2024-11-17 02:42:06.416000+00:00 - s3key: Anomaly Detection/Inference/__init__.py path: /tmp/Anomaly Detection/Inference filename: __init__.py
+2024-11-17 02:42:06.416000+00:00 - downloading key: Anomaly Detection/Inference/__init__.py to /tmp/Anomaly Detection/Inference/__init__.py
+2024-11-17 02:42:06.444000+00:00 - s3key: Anomaly Detection/Inference/inference.py path: /tmp/Anomaly Detection/Inference filename: inference.py
+2024-11-17 02:42:06.444000+00:00 - downloading key: Anomaly Detection/Inference/inference.py to /tmp/Anomaly Detection/Inference/inference.py
+2024-11-17 02:42:06.478000+00:00 - s3key: Anomaly Detection/NormalCell.py path: /tmp/Anomaly Detection filename: NormalCell.py
+2024-11-17 02:42:06.478000+00:00 - downloading key: Anomaly Detection/NormalCell.py to /tmp/Anomaly Detection/NormalCell.py
+2024-11-17 02:42:06.511000+00:00 - s3key: Anomaly Detection/Plot_Redshift.py path: /tmp/Anomaly Detection filename: Plot_Redshift.py
+2024-11-17 02:42:06.511000+00:00 - downloading key: Anomaly Detection/Plot_Redshift.py to /tmp/Anomaly Detection/Plot_Redshift.py
+2024-11-17 02:42:06.541000+00:00 - s3key: Anomaly Detection/blocks/model_vit_inception.py path: /tmp/Anomaly Detection/blocks filename: model_vit_inception.py
+2024-11-17 02:42:06.541000+00:00 - downloading key: Anomaly Detection/blocks/model_vit_inception.py to /tmp/Anomaly Detection/blocks/model_vit_inception.py
+2024-11-17 02:42:06.572000+00:00 - s3key: Anomaly Detection/blocks/photoz.py path: /tmp/Anomaly Detection/blocks filename: photoz.py
+2024-11-17 02:42:06.572000+00:00 - downloading key: Anomaly Detection/blocks/photoz.py to /tmp/Anomaly Detection/blocks/photoz.py
+2024-11-17 02:42:39.629000+00:00 - executed script
+2024-11-17 02:42:39.630000+00:00 - END RequestId: dbbce7bf-680b-4189-9037-bf2b54bd43ab
+2024-11-17 02:42:39.630000+00:00 - REPORT RequestId: dbbce7bf-680b-4189-9037-bf2b54bd43ab       Duration: 33676.81 ms   Billed Duration: 33677 ms       Memory Size: 10240 MB      Max Memory Used: 5948 MB
+2024-11-17 02:47:46.150000+00:00 - START RequestId: 55508073-5408-4b4d-8855-96eb839d28b7 Version: $LATEST
+2024-11-17 02:47:46.150000+00:00 - received:  {'S3_BUCKET': 'cosmicai-data', 'S3_OBJECT_NAME': 'Anomaly Detection', 'SCRIPT': '/tmp/Anomaly Detection/Inference/inference.py', 'S3_OBJECT_TYPE': 'folder', 'WORLD_SIZE': '110', 'RANK': '0', 'DATA_BUCKET': 'cosmicai-data', 'DATA_PREFIX': '75MB', 'DATA_PATH': '75MB/1.pt', 'RESULT_PATH': 'result-partition-75MB/8GB/2', 'BATCH_SIZE': 512}
+2024-11-17 02:47:46.151000+00:00 - parsing args
+2024-11-17 02:47:46.151000+00:00 - executing script: Anomaly Detection
+2024-11-17 02:47:46.204000+00:00 - s3key: Anomaly Detection/Fine_Tune_Model/Mixed_Inception_z_VITAE_Base_Img_Full_New_Full.pt path: /tmp/Anomaly Detection/Fine_Tune_Model filename: Mixed_Inception_z_VITAE_Base_Img_Full_New_Full.pt
+2024-11-17 02:47:46.204000+00:00 - downloading key: Anomaly Detection/Fine_Tune_Model/Mixed_Inception_z_VITAE_Base_Img_Full_New_Full.pt to /tmp/Anomaly Detection/Fine_Tune_Model/Mixed_Inception_z_VITAE_Base_Img_Full_New_Full.pt
+2024-11-17 02:47:46.576000+00:00 - s3key: Anomaly Detection/Inference/__init__.py path: /tmp/Anomaly Detection/Inference filename: __init__.py
+2024-11-17 02:47:46.576000+00:00 - downloading key: Anomaly Detection/Inference/__init__.py to /tmp/Anomaly Detection/Inference/__init__.py
+2024-11-17 02:47:46.602000+00:00 - s3key: Anomaly Detection/Inference/inference.py path: /tmp/Anomaly Detection/Inference filename: inference.py
+2024-11-17 02:47:46.602000+00:00 - downloading key: Anomaly Detection/Inference/inference.py to /tmp/Anomaly Detection/Inference/inference.py
+2024-11-17 02:47:46.630000+00:00 - s3key: Anomaly Detection/NormalCell.py path: /tmp/Anomaly Detection filename: NormalCell.py
+2024-11-17 02:47:46.630000+00:00 - downloading key: Anomaly Detection/NormalCell.py to /tmp/Anomaly Detection/NormalCell.py
+2024-11-17 02:47:46.663000+00:00 - s3key: Anomaly Detection/Plot_Redshift.py path: /tmp/Anomaly Detection filename: Plot_Redshift.py
+2024-11-17 02:47:46.663000+00:00 - downloading key: Anomaly Detection/Plot_Redshift.py to /tmp/Anomaly Detection/Plot_Redshift.py
+2024-11-17 02:47:46.697000+00:00 - s3key: Anomaly Detection/blocks/model_vit_inception.py path: /tmp/Anomaly Detection/blocks filename: model_vit_inception.py
+2024-11-17 02:47:46.697000+00:00 - downloading key: Anomaly Detection/blocks/model_vit_inception.py to /tmp/Anomaly Detection/blocks/model_vit_inception.py
+2024-11-17 02:47:46.729000+00:00 - s3key: Anomaly Detection/blocks/photoz.py path: /tmp/Anomaly Detection/blocks filename: photoz.py
+2024-11-17 02:47:46.729000+00:00 - downloading key: Anomaly Detection/blocks/photoz.py to /tmp/Anomaly Detection/blocks/photoz.py
+2024-11-17 02:48:19.958000+00:00 - executed script
+2024-11-17 02:48:19.960000+00:00 - END RequestId: 55508073-5408-4b4d-8855-96eb839d28b7
+2024-11-17 02:48:19.960000+00:00 - REPORT RequestId: 55508073-5408-4b4d-8855-96eb839d28b7       Duration: 33809.85 ms   Billed Duration: 33810 ms       Memory Size: 10240 MB      Max Memory Used: 5998 MB
+2024-11-17 02:50:03.226000+00:00 - START RequestId: 57b78545-fd07-48cc-8861-9286b83a8b02 Version: $LATEST
+2024-11-17 02:50:03.227000+00:00 - received:  {'S3_BUCKET': 'cosmicai-data', 'S3_OBJECT_NAME': 'Anomaly Detection', 'SCRIPT': '/tmp/Anomaly Detection/Inference/inference.py', 'S3_OBJECT_TYPE': 'folder', 'WORLD_SIZE': '137', 'RANK': '1', 'DATA_BUCKET': 'cosmicai-data', 'DATA_PREFIX': '75MB', 'DATA_PATH': '75MB/10.pt', 'RESULT_PATH': 'result-partition-75MB/10GB/1', 'BATCH_SIZE': 512}
+2024-11-17 02:50:03.227000+00:00 - parsing args
+2024-11-17 02:50:03.227000+00:00 - executing script: Anomaly Detection
+2024-11-17 02:50:03.285000+00:00 - s3key: Anomaly Detection/Fine_Tune_Model/Mixed_Inception_z_VITAE_Base_Img_Full_New_Full.pt path: /tmp/Anomaly Detection/Fine_Tune_Model filename: Mixed_Inception_z_VITAE_Base_Img_Full_New_Full.pt
+2024-11-17 02:50:03.285000+00:00 - downloading key: Anomaly Detection/Fine_Tune_Model/Mixed_Inception_z_VITAE_Base_Img_Full_New_Full.pt to /tmp/Anomaly Detection/Fine_Tune_Model/Mixed_Inception_z_VITAE_Base_Img_Full_New_Full.pt
+2024-11-17 02:50:03.696000+00:00 - s3key: Anomaly Detection/Inference/__init__.py path: /tmp/Anomaly Detection/Inference filename: __init__.py
+2024-11-17 02:50:03.696000+00:00 - downloading key: Anomaly Detection/Inference/__init__.py to /tmp/Anomaly Detection/Inference/__init__.py
+2024-11-17 02:50:03.722000+00:00 - s3key: Anomaly Detection/Inference/inference.py path: /tmp/Anomaly Detection/Inference filename: inference.py
+2024-11-17 02:50:03.722000+00:00 - downloading key: Anomaly Detection/Inference/inference.py to /tmp/Anomaly Detection/Inference/inference.py
+2024-11-17 02:50:03.756000+00:00 - s3key: Anomaly Detection/NormalCell.py path: /tmp/Anomaly Detection filename: NormalCell.py
+2024-11-17 02:50:03.756000+00:00 - downloading key: Anomaly Detection/NormalCell.py to /tmp/Anomaly Detection/NormalCell.py
+2024-11-17 02:50:03.791000+00:00 - s3key: Anomaly Detection/Plot_Redshift.py path: /tmp/Anomaly Detection filename: Plot_Redshift.py
+2024-11-17 02:50:03.791000+00:00 - downloading key: Anomaly Detection/Plot_Redshift.py to /tmp/Anomaly Detection/Plot_Redshift.py
+2024-11-17 02:50:03.837000+00:00 - s3key: Anomaly Detection/blocks/model_vit_inception.py path: /tmp/Anomaly Detection/blocks filename: model_vit_inception.py
+2024-11-17 02:50:03.837000+00:00 - downloading key: Anomaly Detection/blocks/model_vit_inception.py to /tmp/Anomaly Detection/blocks/model_vit_inception.py
+2024-11-17 02:50:03.873000+00:00 - s3key: Anomaly Detection/blocks/photoz.py path: /tmp/Anomaly Detection/blocks filename: photoz.py
+2024-11-17 02:50:03.873000+00:00 - downloading key: Anomaly Detection/blocks/photoz.py to /tmp/Anomaly Detection/blocks/photoz.py
+2024-11-17 02:50:37.115000+00:00 - executed script
+2024-11-17 02:50:37.117000+00:00 - END RequestId: 57b78545-fd07-48cc-8861-9286b83a8b02
+2024-11-17 02:50:37.117000+00:00 - REPORT RequestId: 57b78545-fd07-48cc-8861-9286b83a8b02       Duration: 33888.02 ms   Billed Duration: 33889 ms       Memory Size: 10240 MB      Max Memory Used: 5998 MB
+2024-11-17 02:51:34.338000+00:00 - START RequestId: 1742ea60-6556-42bd-a33f-7fb637150426 Version: $LATEST
+2024-11-17 02:51:34.339000+00:00 - received:  {'S3_BUCKET': 'cosmicai-data', 'S3_OBJECT_NAME': 'Anomaly Detection', 'SCRIPT': '/tmp/Anomaly Detection/Inference/inference.py', 'S3_OBJECT_TYPE': 'folder', 'WORLD_SIZE': '137', 'RANK': '14', 'DATA_BUCKET': 'cosmicai-data', 'DATA_PREFIX': '75MB', 'DATA_PATH': '75MB/111.pt', 'RESULT_PATH': 'result-partition-75MB/10GB/2', 'BATCH_SIZE': 512}
+2024-11-17 02:51:34.340000+00:00 - parsing args
+2024-11-17 02:51:34.340000+00:00 - executing script: Anomaly Detection
+2024-11-17 02:51:34.392000+00:00 - s3key: Anomaly Detection/Fine_Tune_Model/Mixed_Inception_z_VITAE_Base_Img_Full_New_Full.pt path: /tmp/Anomaly Detection/Fine_Tune_Model filename: Mixed_Inception_z_VITAE_Base_Img_Full_New_Full.pt
+2024-11-17 02:51:34.392000+00:00 - downloading key: Anomaly Detection/Fine_Tune_Model/Mixed_Inception_z_VITAE_Base_Img_Full_New_Full.pt to /tmp/Anomaly Detection/Fine_Tune_Model/Mixed_Inception_z_VITAE_Base_Img_Full_New_Full.pt
+2024-11-17 02:51:34.739000+00:00 - s3key: Anomaly Detection/Inference/__init__.py path: /tmp/Anomaly Detection/Inference filename: __init__.py
+2024-11-17 02:51:34.739000+00:00 - downloading key: Anomaly Detection/Inference/__init__.py to /tmp/Anomaly Detection/Inference/__init__.py
+2024-11-17 02:51:34.768000+00:00 - s3key: Anomaly Detection/Inference/inference.py path: /tmp/Anomaly Detection/Inference filename: inference.py
+2024-11-17 02:51:34.768000+00:00 - downloading key: Anomaly Detection/Inference/inference.py to /tmp/Anomaly Detection/Inference/inference.py
+2024-11-17 02:51:34.798000+00:00 - s3key: Anomaly Detection/NormalCell.py path: /tmp/Anomaly Detection filename: NormalCell.py
+2024-11-17 02:51:34.798000+00:00 - downloading key: Anomaly Detection/NormalCell.py to /tmp/Anomaly Detection/NormalCell.py
+2024-11-17 02:51:34.829000+00:00 - s3key: Anomaly Detection/Plot_Redshift.py path: /tmp/Anomaly Detection filename: Plot_Redshift.py
+2024-11-17 02:51:34.829000+00:00 - downloading key: Anomaly Detection/Plot_Redshift.py to /tmp/Anomaly Detection/Plot_Redshift.py
+2024-11-17 02:51:34.864000+00:00 - s3key: Anomaly Detection/blocks/model_vit_inception.py path: /tmp/Anomaly Detection/blocks filename: model_vit_inception.py
+2024-11-17 02:51:34.864000+00:00 - downloading key: Anomaly Detection/blocks/model_vit_inception.py to /tmp/Anomaly Detection/blocks/model_vit_inception.py
+2024-11-17 02:51:34.895000+00:00 - s3key: Anomaly Detection/blocks/photoz.py path: /tmp/Anomaly Detection/blocks filename: photoz.py
+2024-11-17 02:51:34.895000+00:00 - downloading key: Anomaly Detection/blocks/photoz.py to /tmp/Anomaly Detection/blocks/photoz.py
+2024-11-17 02:52:08.035000+00:00 - executed script
+2024-11-17 02:52:08.037000+00:00 - END RequestId: 1742ea60-6556-42bd-a33f-7fb637150426
+2024-11-17 02:52:08.037000+00:00 - REPORT RequestId: 1742ea60-6556-42bd-a33f-7fb637150426       Duration: 33698.68 ms   Billed Duration: 33699 ms       Memory Size: 10240 MB      Max Memory Used: 5998 MB
+2024-11-17 02:54:51.835000+00:00 - START RequestId: 10c17a69-f818-4199-9ac1-14248fe5fe42 Version: $LATEST
+2024-11-17 02:54:51.835000+00:00 - received:  {'S3_BUCKET': 'cosmicai-data', 'S3_OBJECT_NAME': 'Anomaly Detection', 'SCRIPT': '/tmp/Anomaly Detection/Inference/inference.py', 'S3_OBJECT_TYPE': 'folder', 'WORLD_SIZE': '137', 'RANK': '0', 'DATA_BUCKET': 'cosmicai-data', 'DATA_PREFIX': '75MB', 'DATA_PATH': '75MB/1.pt', 'RESULT_PATH': 'result-partition-75MB/10GB/3', 'BATCH_SIZE': 512}
+2024-11-17 02:54:51.836000+00:00 - parsing args
+2024-11-17 02:54:51.836000+00:00 - executing script: Anomaly Detection
+2024-11-17 02:54:51.892000+00:00 - s3key: Anomaly Detection/Fine_Tune_Model/Mixed_Inception_z_VITAE_Base_Img_Full_New_Full.pt path: /tmp/Anomaly Detection/Fine_Tune_Model filename: Mixed_Inception_z_VITAE_Base_Img_Full_New_Full.pt
+2024-11-17 02:54:51.892000+00:00 - downloading key: Anomaly Detection/Fine_Tune_Model/Mixed_Inception_z_VITAE_Base_Img_Full_New_Full.pt to /tmp/Anomaly Detection/Fine_Tune_Model/Mixed_Inception_z_VITAE_Base_Img_Full_New_Full.pt
+2024-11-17 02:54:52.336000+00:00 - s3key: Anomaly Detection/Inference/__init__.py path: /tmp/Anomaly Detection/Inference filename: __init__.py
+2024-11-17 02:54:52.336000+00:00 - downloading key: Anomaly Detection/Inference/__init__.py to /tmp/Anomaly Detection/Inference/__init__.py
+2024-11-17 02:54:52.364000+00:00 - s3key: Anomaly Detection/Inference/inference.py path: /tmp/Anomaly Detection/Inference filename: inference.py
+2024-11-17 02:54:52.364000+00:00 - downloading key: Anomaly Detection/Inference/inference.py to /tmp/Anomaly Detection/Inference/inference.py
+2024-11-17 02:54:52.398000+00:00 - s3key: Anomaly Detection/NormalCell.py path: /tmp/Anomaly Detection filename: NormalCell.py
+2024-11-17 02:54:52.398000+00:00 - downloading key: Anomaly Detection/NormalCell.py to /tmp/Anomaly Detection/NormalCell.py
+2024-11-17 02:54:52.435000+00:00 - s3key: Anomaly Detection/Plot_Redshift.py path: /tmp/Anomaly Detection filename: Plot_Redshift.py
+2024-11-17 02:54:52.435000+00:00 - downloading key: Anomaly Detection/Plot_Redshift.py to /tmp/Anomaly Detection/Plot_Redshift.py
+2024-11-17 02:54:52.471000+00:00 - s3key: Anomaly Detection/blocks/model_vit_inception.py path: /tmp/Anomaly Detection/blocks filename: model_vit_inception.py
+2024-11-17 02:54:52.471000+00:00 - downloading key: Anomaly Detection/blocks/model_vit_inception.py to /tmp/Anomaly Detection/blocks/model_vit_inception.py
+2024-11-17 02:54:52.516000+00:00 - s3key: Anomaly Detection/blocks/photoz.py path: /tmp/Anomaly Detection/blocks filename: photoz.py
+2024-11-17 02:54:52.516000+00:00 - downloading key: Anomaly Detection/blocks/photoz.py to /tmp/Anomaly Detection/blocks/photoz.py
+2024-11-17 02:55:26.646000+00:00 - executed script
+2024-11-17 02:55:26.647000+00:00 - END RequestId: 10c17a69-f818-4199-9ac1-14248fe5fe42
+2024-11-17 02:55:26.648000+00:00 - REPORT RequestId: 10c17a69-f818-4199-9ac1-14248fe5fe42       Duration: 34812.80 ms   Billed Duration: 34813 ms       Memory Size: 10240 MB      Max Memory Used: 5998 MB
+2024-11-17 02:56:22.878000+00:00 - START RequestId: 93f2ad0a-0e30-4a18-a76f-6e02f899b913 Version: $LATEST
+2024-11-17 02:56:22.879000+00:00 - received:  {'S3_BUCKET': 'cosmicai-data', 'S3_OBJECT_NAME': 'Anomaly Detection', 'SCRIPT': '/tmp/Anomaly Detection/Inference/inference.py', 'S3_OBJECT_TYPE': 'folder', 'WORLD_SIZE': '173', 'RANK': '23', 'DATA_BUCKET': 'cosmicai-data', 'DATA_PREFIX': '75MB', 'DATA_PATH': '75MB/12.pt', 'RESULT_PATH': 'result-partition-75MB/total/1', 'BATCH_SIZE': 512}
+2024-11-17 02:56:22.880000+00:00 - parsing args
+2024-11-17 02:56:22.880000+00:00 - executing script: Anomaly Detection
+2024-11-17 02:56:22.925000+00:00 - s3key: Anomaly Detection/Fine_Tune_Model/Mixed_Inception_z_VITAE_Base_Img_Full_New_Full.pt path: /tmp/Anomaly Detection/Fine_Tune_Model filename: Mixed_Inception_z_VITAE_Base_Img_Full_New_Full.pt
+2024-11-17 02:56:22.925000+00:00 - downloading key: Anomaly Detection/Fine_Tune_Model/Mixed_Inception_z_VITAE_Base_Img_Full_New_Full.pt to /tmp/Anomaly Detection/Fine_Tune_Model/Mixed_Inception_z_VITAE_Base_Img_Full_New_Full.pt
+2024-11-17 02:56:23.286000+00:00 - s3key: Anomaly Detection/Inference/__init__.py path: /tmp/Anomaly Detection/Inference filename: __init__.py
+2024-11-17 02:56:23.286000+00:00 - downloading key: Anomaly Detection/Inference/__init__.py to /tmp/Anomaly Detection/Inference/__init__.py
+2024-11-17 02:56:23.311000+00:00 - s3key: Anomaly Detection/Inference/inference.py path: /tmp/Anomaly Detection/Inference filename: inference.py
+2024-11-17 02:56:23.311000+00:00 - downloading key: Anomaly Detection/Inference/inference.py to /tmp/Anomaly Detection/Inference/inference.py
+2024-11-17 02:56:23.346000+00:00 - s3key: Anomaly Detection/NormalCell.py path: /tmp/Anomaly Detection filename: NormalCell.py
+2024-11-17 02:56:23.346000+00:00 - downloading key: Anomaly Detection/NormalCell.py to /tmp/Anomaly Detection/NormalCell.py
+2024-11-17 02:56:23.379000+00:00 - s3key: Anomaly Detection/Plot_Redshift.py path: /tmp/Anomaly Detection filename: Plot_Redshift.py
+2024-11-17 02:56:23.379000+00:00 - downloading key: Anomaly Detection/Plot_Redshift.py to /tmp/Anomaly Detection/Plot_Redshift.py
+2024-11-17 02:56:23.438000+00:00 - s3key: Anomaly Detection/blocks/model_vit_inception.py path: /tmp/Anomaly Detection/blocks filename: model_vit_inception.py
+2024-11-17 02:56:23.438000+00:00 - downloading key: Anomaly Detection/blocks/model_vit_inception.py to /tmp/Anomaly Detection/blocks/model_vit_inception.py
+2024-11-17 02:56:23.474000+00:00 - s3key: Anomaly Detection/blocks/photoz.py path: /tmp/Anomaly Detection/blocks filename: photoz.py
+2024-11-17 02:56:23.474000+00:00 - downloading key: Anomaly Detection/blocks/photoz.py to /tmp/Anomaly Detection/blocks/photoz.py
+2024-11-17 02:56:56.158000+00:00 - executed script
+2024-11-17 02:56:56.160000+00:00 - END RequestId: 93f2ad0a-0e30-4a18-a76f-6e02f899b913
+2024-11-17 02:56:56.160000+00:00 - REPORT RequestId: 93f2ad0a-0e30-4a18-a76f-6e02f899b913       Duration: 33278.25 ms   Billed Duration: 33279 ms       Memory Size: 10240 MB      Max Memory Used: 5998 MB
+2024-11-17 02:57:29.677000+00:00 - START RequestId: 6b38a716-ad53-4cb2-8cd2-0754317d5d96 Version: $LATEST
+2024-11-17 02:57:29.678000+00:00 - received:  {'S3_BUCKET': 'cosmicai-data', 'S3_OBJECT_NAME': 'Anomaly Detection', 'SCRIPT': '/tmp/Anomaly Detection/Inference/inference.py', 'S3_OBJECT_TYPE': 'folder', 'WORLD_SIZE': '173', 'RANK': '0', 'DATA_BUCKET': 'cosmicai-data', 'DATA_PREFIX': '75MB', 'DATA_PATH': '75MB/1.pt', 'RESULT_PATH': 'result-partition-75MB/total/2', 'BATCH_SIZE': 512}
+2024-11-17 02:57:29.678000+00:00 - parsing args
+2024-11-17 02:57:29.679000+00:00 - executing script: Anomaly Detection
+2024-11-17 02:57:29.734000+00:00 - s3key: Anomaly Detection/Fine_Tune_Model/Mixed_Inception_z_VITAE_Base_Img_Full_New_Full.pt path: /tmp/Anomaly Detection/Fine_Tune_Model filename: Mixed_Inception_z_VITAE_Base_Img_Full_New_Full.pt
+2024-11-17 02:57:29.734000+00:00 - downloading key: Anomaly Detection/Fine_Tune_Model/Mixed_Inception_z_VITAE_Base_Img_Full_New_Full.pt to /tmp/Anomaly Detection/Fine_Tune_Model/Mixed_Inception_z_VITAE_Base_Img_Full_New_Full.pt
+2024-11-17 02:57:30.122000+00:00 - s3key: Anomaly Detection/Inference/__init__.py path: /tmp/Anomaly Detection/Inference filename: __init__.py
+2024-11-17 02:57:30.122000+00:00 - downloading key: Anomaly Detection/Inference/__init__.py to /tmp/Anomaly Detection/Inference/__init__.py
+2024-11-17 02:57:30.149000+00:00 - s3key: Anomaly Detection/Inference/inference.py path: /tmp/Anomaly Detection/Inference filename: inference.py
+2024-11-17 02:57:30.149000+00:00 - downloading key: Anomaly Detection/Inference/inference.py to /tmp/Anomaly Detection/Inference/inference.py
+2024-11-17 02:57:30.181000+00:00 - s3key: Anomaly Detection/NormalCell.py path: /tmp/Anomaly Detection filename: NormalCell.py
+2024-11-17 02:57:30.181000+00:00 - downloading key: Anomaly Detection/NormalCell.py to /tmp/Anomaly Detection/NormalCell.py
+2024-11-17 02:57:30.228000+00:00 - s3key: Anomaly Detection/Plot_Redshift.py path: /tmp/Anomaly Detection filename: Plot_Redshift.py
+2024-11-17 02:57:30.228000+00:00 - downloading key: Anomaly Detection/Plot_Redshift.py to /tmp/Anomaly Detection/Plot_Redshift.py
+2024-11-17 02:57:30.257000+00:00 - s3key: Anomaly Detection/blocks/model_vit_inception.py path: /tmp/Anomaly Detection/blocks filename: model_vit_inception.py
+2024-11-17 02:57:30.257000+00:00 - downloading key: Anomaly Detection/blocks/model_vit_inception.py to /tmp/Anomaly Detection/blocks/model_vit_inception.py
+2024-11-17 02:57:30.288000+00:00 - s3key: Anomaly Detection/blocks/photoz.py path: /tmp/Anomaly Detection/blocks filename: photoz.py
+2024-11-17 02:57:30.288000+00:00 - downloading key: Anomaly Detection/blocks/photoz.py to /tmp/Anomaly Detection/blocks/photoz.py
+2024-11-17 02:58:02.095000+00:00 - executed script
+2024-11-17 02:58:02.096000+00:00 - END RequestId: 6b38a716-ad53-4cb2-8cd2-0754317d5d96
+2024-11-17 02:58:02.096000+00:00 - REPORT RequestId: 6b38a716-ad53-4cb2-8cd2-0754317d5d96       Duration: 32418.83 ms   Billed Duration: 32419 ms       Memory Size: 10240 MB      Max Memory Used: 5998 MB
+2024-11-17 02:58:40.793000+00:00 - START RequestId: 4d8864b8-14ae-4099-858d-3eba2aa8759c Version: $LATEST
+2024-11-17 02:58:40.794000+00:00 - received:  {'S3_BUCKET': 'cosmicai-data', 'S3_OBJECT_NAME': 'Anomaly Detection', 'SCRIPT': '/tmp/Anomaly Detection/Inference/inference.py', 'S3_OBJECT_TYPE': 'folder', 'WORLD_SIZE': '173', 'RANK': '0', 'DATA_BUCKET': 'cosmicai-data', 'DATA_PREFIX': '75MB', 'DATA_PATH': '75MB/1.pt', 'RESULT_PATH': 'result-partition-75MB/total/3', 'BATCH_SIZE': 512}
+2024-11-17 02:58:40.795000+00:00 - parsing args
+2024-11-17 02:58:40.795000+00:00 - executing script: Anomaly Detection
+2024-11-17 02:58:40.837000+00:00 - s3key: Anomaly Detection/Fine_Tune_Model/Mixed_Inception_z_VITAE_Base_Img_Full_New_Full.pt path: /tmp/Anomaly Detection/Fine_Tune_Model filename: Mixed_Inception_z_VITAE_Base_Img_Full_New_Full.pt
+2024-11-17 02:58:40.837000+00:00 - downloading key: Anomaly Detection/Fine_Tune_Model/Mixed_Inception_z_VITAE_Base_Img_Full_New_Full.pt to /tmp/Anomaly Detection/Fine_Tune_Model/Mixed_Inception_z_VITAE_Base_Img_Full_New_Full.pt
+2024-11-17 02:58:41.240000+00:00 - s3key: Anomaly Detection/Inference/__init__.py path: /tmp/Anomaly Detection/Inference filename: __init__.py
+2024-11-17 02:58:41.240000+00:00 - downloading key: Anomaly Detection/Inference/__init__.py to /tmp/Anomaly Detection/Inference/__init__.py
+2024-11-17 02:58:41.265000+00:00 - s3key: Anomaly Detection/Inference/inference.py path: /tmp/Anomaly Detection/Inference filename: inference.py
+2024-11-17 02:58:41.265000+00:00 - downloading key: Anomaly Detection/Inference/inference.py to /tmp/Anomaly Detection/Inference/inference.py
+2024-11-17 02:58:41.297000+00:00 - s3key: Anomaly Detection/NormalCell.py path: /tmp/Anomaly Detection filename: NormalCell.py
+2024-11-17 02:58:41.297000+00:00 - downloading key: Anomaly Detection/NormalCell.py to /tmp/Anomaly Detection/NormalCell.py
+2024-11-17 02:58:41.332000+00:00 - s3key: Anomaly Detection/Plot_Redshift.py path: /tmp/Anomaly Detection filename: Plot_Redshift.py
+2024-11-17 02:58:41.332000+00:00 - downloading key: Anomaly Detection/Plot_Redshift.py to /tmp/Anomaly Detection/Plot_Redshift.py
+2024-11-17 02:58:41.367000+00:00 - s3key: Anomaly Detection/blocks/model_vit_inception.py path: /tmp/Anomaly Detection/blocks filename: model_vit_inception.py
+2024-11-17 02:58:41.367000+00:00 - downloading key: Anomaly Detection/blocks/model_vit_inception.py to /tmp/Anomaly Detection/blocks/model_vit_inception.py
+2024-11-17 02:58:41.400000+00:00 - s3key: Anomaly Detection/blocks/photoz.py path: /tmp/Anomaly Detection/blocks filename: photoz.py
+2024-11-17 02:58:41.400000+00:00 - downloading key: Anomaly Detection/blocks/photoz.py to /tmp/Anomaly Detection/blocks/photoz.py
+2024-11-17 02:59:14.171000+00:00 - executed script
+2024-11-17 02:59:14.173000+00:00 - END RequestId: 4d8864b8-14ae-4099-858d-3eba2aa8759c
+2024-11-17 02:59:14.173000+00:00 - REPORT RequestId: 4d8864b8-14ae-4099-858d-3eba2aa8759c       Duration: 33379.71 ms   Billed Duration: 33380 ms       Memory Size: 10240 MB      Max Memory Used: 5998 MB

@@ -1,0 +1,10 @@
+__pycache__
+.ipynb_checkpoints
+.DS_Store
+raw_data
+
+# Ignore JSON files with only digits in filenames from the 'aws' folder and its subfolders
+aws/**/[0-9]*.json
+
+# Allow other JSON files in the 'aws' folder and its subfolders
+!aws/**/*[!0-9]*.json
