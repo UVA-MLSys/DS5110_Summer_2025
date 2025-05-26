@@ -47,7 +47,7 @@ This is passed to the state machine as input. It assumes the code and data are l
   "batch_size": 512,
   "object_type": "folder",
   "S3_object_name": "Anomaly Detection",
-  "script": "/tmp/Anomaly Detection/inference.py",
+  "script": "/tmp/Anomaly Detection/Inference/inference.py",
   "result_path": "result-partition-100MB/1GB/1",
   "data_bucket": "cosmicai-data",
   "data_prefix": "100MB"
