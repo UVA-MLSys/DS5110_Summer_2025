@@ -36,3 +36,4 @@ wip/99_usecases/output/
 *.csv
 *.gz
 !04_ingest/data/*
+!Project/aws/results/total_execution_time.csv
