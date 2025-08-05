@@ -1,0 +1,18 @@
+Model File Information
+=====================
+
+This directory should contain the pre-trained vision transformer model for redshift prediction.
+
+Expected file: Mixed_Inception_z_VITAE_Base_Img_Full_New_Full.pt
+
+Model Specifications:
+- Architecture: Vision Transformer (ViT)
+- Input: 32x32 pixel astronomical images
+- Output: Redshift prediction (continuous value)
+- Parameters: ~125M
+- Size: ~245 MB
+
+The model should be trained on SDSS astronomical data and fine-tuned for redshift prediction.
+
+Note: The actual model file is not included in this repository due to size constraints.
+Please download the model from the appropriate source or train it using the provided scripts. 

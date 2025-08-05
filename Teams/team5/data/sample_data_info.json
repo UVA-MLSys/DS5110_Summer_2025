@@ -1,0 +1,54 @@
+{
+  "dataset_info": {
+    "name": "SDSS Astronomical Data",
+    "description": "Sloan Digital Sky Survey astronomical images and photometric data for redshift prediction",
+    "total_samples": 25000,
+    "image_dimensions": "32x32 pixels",
+    "photometric_bands": ["u", "g", "r", "i", "z"],
+    "data_size_gb": 2.5,
+    "source": "Sloan Digital Sky Survey (SDSS)",
+    "license": "Public Domain"
+  },
+  "data_structure": {
+    "images": {
+      "format": "PyTorch tensors",
+      "shape": [32, 32, 3],
+      "normalization": "Standard normalization applied"
+    },
+    "metadata": {
+      "format": "JSON",
+      "fields": [
+        "u_magnitude",
+        "g_magnitude", 
+        "r_magnitude",
+        "i_magnitude",
+        "z_magnitude",
+        "redshift_target"
+      ]
+    }
+  },
+  "preprocessing": {
+    "image_processing": [
+      "Resize from 64x64 to 32x32 pixels",
+      "Normalize pixel values to [0,1]",
+      "Apply data augmentation (rotation, flip)"
+    ],
+    "metadata_processing": [
+      "Handle missing values",
+      "Remove outliers (3-sigma rule)",
+      "Normalize magnitude values"
+    ],
+    "data_splits": {
+      "training": 0.70,
+      "validation": 0.15,
+      "test": 0.15
+    }
+  },
+  "model_info": {
+    "architecture": "Vision Transformer (ViT)",
+    "pretrained_on": "SDSS general astronomical images",
+    "fine_tuned_for": "Redshift prediction",
+    "model_size_mb": 245.6,
+    "parameters": 125000000
+  }
+} 

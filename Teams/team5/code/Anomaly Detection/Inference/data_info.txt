@@ -1,0 +1,20 @@
+Data File Information
+====================
+
+This directory should contain the processed astronomical data for inference.
+
+Expected file: resized_inference.pt
+
+Data Specifications:
+- Format: PyTorch tensor
+- Shape: [N, 3, 32, 32] where N is the number of samples
+- Content: Astronomical images from SDSS survey
+- Preprocessing: Resized to 32x32 pixels, normalized
+
+The data file should contain:
+1. Astronomical images (32x32 pixels, 3 channels)
+2. Corresponding photometric magnitudes (u, g, r, i, z bands)
+3. Redshift targets for evaluation
+
+Note: The actual data file is not included in this repository due to size constraints.
+Please download the SDSS data and preprocess it according to the specifications in the README. 
