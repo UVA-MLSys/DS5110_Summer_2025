@@ -72,6 +72,7 @@ conda activate cosmic_ai
 pip install torch==2.2.1 timm==0.4.12
 pip install matplotlib scikit-learn scipy
 pip install numpy==1.23.5
+pip install tqdm psutil
 ```
 
 Once created you can just load miniforge and activate cosmic_ai from next times.
@@ -97,6 +98,7 @@ Install the libraries
 pip install torch==2.2.1 timm==0.4.12
 pip install matplotlib scikit-learn scipy
 pip install numpy==1.23.5
+pip install tqdm psutil
 ```
 
 ### Step 3: Run the Inference Script
