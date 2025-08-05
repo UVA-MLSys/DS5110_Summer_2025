@@ -44,12 +44,26 @@ Deploy and evaluate scalable, serverless AI infrastructure for astronomical reds
 | Samples per second      | ~121          | ~211           |
 
 <img width="833" height="465" alt="image" src="https://github.com/user-attachments/assets/2b7eea50-2f53-43a0-bcbb-de665eac26a0" />
-<img width="871" height="650" alt="image" src="https://github.com/user-attachments/assets/184c728b-0de9-4f58-852f-4192e53c55f3" />
-<img width="905" height="663" alt="image" src="https://github.com/user-attachments/assets/cf2d808e-f7d0-4824-b0ca-2bf20f9fc5fb" />
-<img width="780" height="216" alt="image" src="https://github.com/user-attachments/assets/4b47ab95-8ce7-4e3a-bf51-d8cc6e4edec0" />
-<img width="848" height="178" alt="image" src="https://github.com/user-attachments/assets/38de48d5-1812-40a7-9133-6a95486ee83b" />
-<img width="781" height="186" alt="image" src="https://github.com/user-attachments/assets/0644d553-aba1-4cbb-8162-159a5a60f381" />
 
+---
+
+<img width="871" height="650" alt="image" src="https://github.com/user-attachments/assets/184c728b-0de9-4f58-852f-4192e53c55f3" />
+
+---
+
+<img width="905" height="663" alt="image" src="https://github.com/user-attachments/assets/cf2d808e-f7d0-4824-b0ca-2bf20f9fc5fb" />
+
+---
+
+<img width="780" height="216" alt="image" src="https://github.com/user-attachments/assets/4b47ab95-8ce7-4e3a-bf51-d8cc6e4edec0" />
+
+---
+
+<img width="848" height="178" alt="image" src="https://github.com/user-attachments/assets/38de48d5-1812-40a7-9133-6a95486ee83b" />
+
+---
+
+<img width="781" height="186" alt="image" src="https://github.com/user-attachments/assets/0644d553-aba1-4cbb-8162-159a5a60f381" />
 
 ### Observations
 - AWS Serverless performed 42% faster on execution time
@@ -91,4 +105,47 @@ Set up code to run inference, and connect to Step Function (below)
 
 ### Step Functions
 <img width="1098" height="561" alt="image" src="https://github.com/user-attachments/assets/f133ed61-554d-41f1-ae19-db0d4fb5df93" />
+
+---
+
+### Rendezvous Server Setup
+Navigate to AWS Elastic Container Service (ECS) and select the "rendezvous-tcpunchfargate-task" from the task definitions
+
+<img width="2906" height="892" alt="image" src="https://github.com/user-attachments/assets/84599f9c-f447-468a-a805-359bf1cbb635" />
+
+---
+
+Deploy the task to the Fargate cluster using FARGATE as the launch type
+
+<img width="2916" height="1546" alt="image" src="https://github.com/user-attachments/assets/04b31836-4755-493d-9a43-2dfda743b750" />
+
+---
+
+Configure the networking settings with the "open access" security group
+
+<img width="2872" height="1532" alt="image" src="https://github.com/user-attachments/assets/cc63ac86-2a88-473f-bbe9-29b55c482103" />
+
+
+<img width="2902" height="1524" alt="image" src="https://github.com/user-attachments/assets/2cbff9de-43bf-4662-bbd6-533674c72a18" />
+
+---
+
+Retrieve the public IP address of the deployed task
+
+<img width="2916" height="1510" alt="image" src="https://github.com/user-attachments/assets/e3aadb67-fddd-4352-9849-0ed7de810ff3" />
+
+---
+
+Update the DNS record in Route 53 for "rendezvous.uva-ds5110.com" with your task's IPaddress
+
+<img width="2896" height="1520" alt="image" src="https://github.com/user-attachments/assets/5a68577e-de5b-4cc4-a11f-990a26f826f7" />
+
+
+<img width="2896" height="842" alt="image" src="https://github.com/user-attachments/assets/ad62dc1a-c6b4-420e-bda6-db00a2ac5ed3" />
+
+---
+
+Verify the server is accessible by performing a connection test
+
+<img width="2908" height="1498" alt="image" src="https://github.com/user-attachments/assets/f66e7cef-2ac3-470f-adce-cc13bae00de3" />
 
