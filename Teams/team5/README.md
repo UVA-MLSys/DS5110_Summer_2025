@@ -78,7 +78,7 @@ The significance of this project goes beyond its technological execution and pre
 
 The model used for redshift prediction is pre-trained as "a vision transformer encoder on Sloan Digital Sky Survey (SDSS) images to capture general patterns" and is then fine-tuned "with a specialized architecture for redshift prediction." This approach leverages the power of transfer learning, where the model first learns generalizable features from a vast collection of SDSS images and then adapts to the specific task of predicting redshift.
 
-The SDSS dataset includes images with "corresponding magnitude values for the five photometric bands (u, g, r, i, z) and redshift targets." Each image is meticulously processed to ensure compatibility with the model's requirements, including cropping from 64 x 64 pixels to 32 x 32 pixels for input optimization. The magnitude values represent brightness measurements across different wavelengths, which, combined with the image data, provide a rich and multi-dimensional view of celestial objects.
+The SDSS dataset includes images with "corresponding magnitude values for the five photometric bands and redshift targets." Each image is meticulously processed to ensure compatibility with the model's requirements, including cropping from 64 x 64 pixels to 32 x 32 pixels for input optimization. The magnitude values represent brightness measurements across different wavelengths, which, combined with the image data, provide a rich and multi-dimensional view of celestial objects.
 
 **Dataset Size**: The SDSS dataset contains approximately 25,000 astronomical objects with corresponding images and photometric data, totaling approximately 2.5 GB of data, including images, metadata, and model files.
 
