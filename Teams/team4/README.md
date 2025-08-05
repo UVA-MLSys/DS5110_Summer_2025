@@ -15,8 +15,23 @@ Deploy and evaluate scalable, serverless AI infrastructure for astronomical reds
 1. **Step Function Setup**: Custom state machine invoking init -> inference -> summarize Lambda chain
 2. **Lambda Scripts**: Runs batch inference in a distributed manner
 3. **Payload**: Initialize payload
-4. **CloudWatch Logs**: Used for monitoring and debugging
-5. **Result Storage**: JSON outputs saved in S3 buckets
+
+**Example payload:**
+```bash
+{
+“bucket”: “team4-cosmical”,
+“file_limit”: ”100”,
+“batch_size”: 512,
+“object_type”: “folder”,
+“S3_object_name”:  “Anomaly Detection”,
+“script”: “/tmp/Anomaly Detection/Inference/inference.py”,
+“result_path”: “result-partition-50MB/1GB/1”,
+“data_bucket”: “cosmicai-data”,
+“data_prefix”: “50MB”
+}
+```
+5. **CloudWatch Logs**: Used for monitoring and debugging
+6. **Result Storage**: JSON outputs saved in S3 buckets
 
 ## Results
 ### Benchmarks
