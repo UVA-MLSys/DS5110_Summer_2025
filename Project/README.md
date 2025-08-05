@@ -119,6 +119,10 @@ Create a state machine that contains the following Lambda functions.
 
 </details>
 
+## Reproduce Locally 
+
+To locally reproduce the model inference, either on Rivanna or you personal computer, please follow this [README](./Anomaly%20Detection/README.md). This requires installing the libraries locally using Anaconda or pip.
+
 ## Results
 
 <details>

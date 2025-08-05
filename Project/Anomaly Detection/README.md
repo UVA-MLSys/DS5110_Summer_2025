@@ -60,6 +60,12 @@ Follow these steps to create a Python virtual environment and install the necess
 
 #### Using Anaconda [recommended]
 
+If running on Rivanna then you must load miniforge first
+
+```
+module load miniforge
+```
+
 ```
 conda create --name cosmic_ai python=3.10
 conda activate cosmic_ai
@@ -68,20 +74,22 @@ pip install matplotlib scikit-learn scipy
 pip install numpy==1.23.5
 ```
 
+Once created you can just load miniforge and activate cosmic_ai from next times.
+
 #### Using venv
 
 ```sh
-python -m venv myenv
+python -m venv cosmic_ai
 ```
 To activate the Virtual environment, run:
 
 - On **Windows**:
 ```sh
-myenv\Scripts\activate
+cosmic_ai\Scripts\activate
 ```
 - On **macOS/Linux**:
 ```sh
-source myenv/bin/activate
+source cosmic_ai/bin/activate
 ```
 
 Install the libraries
@@ -111,12 +119,8 @@ You can also run it on cpu passing `--device cpu`.
 |--------------------------|--------------------------------------------------------------------------------------------------|
 | **Fine_Tune_Model**      | Contains model weights.                                                                         |
 | **Inference**            | Code and data required for running inference.                                                   |
-| **Plots**                | Generated visualizations, such as plots of model evaluation metrics and analysis results.        |
 | **blocks**               | Source code for fine-tuning.                                                                     |
-| **Astronomy_Overview.pptx**  | PowerPoint presentation summarizing the astronomy aspects of the project.                      |
-| **NormalCell.py**        | Python implementation of standard and customized multi-head self-attention mechanisms.           |
-| **Plot_Redshift.py**     | Script for generating visualizations and evaluations related to redshift analysis.               |
-| **README.pdf**           | Detailed guide providing step-by-step instructions for running inference.                        |
+| **NormalCell.py**        | Python implementation of standard and customized multi-head self-attention mechanisms.           |                     |
 
 ## Support
 

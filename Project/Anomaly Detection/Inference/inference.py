@@ -60,8 +60,8 @@ def inference(model, dataloader, real_redshift, device, batch_size):
     total_cpu_time = prof.key_averages().total_average().cpu_time_total / 1e6  # Convert from microseconds to seconds
 
     execution_info = {
-            'total_cpu_time': total_cpu_time,
-            'total_cpu_memory': total_cpu_memory, 
+            'total_cpu_time (seconds)': total_cpu_time,
+            'total_cpu_memory (MB)': total_cpu_memory, 
             'num_batches': num_batches,   # Number of batches
             'batch_size': batch_size,   # Batch size
             'device': device,   # Selected device
@@ -71,8 +71,8 @@ def inference(model, dataloader, real_redshift, device, batch_size):
         total_gpu_memory = prof.key_averages().total_average().cuda_memory_usage / 1e6  # Convert bytes to MB
         total_gpu_time = prof.key_averages().total_average().cuda_time_total / 1e6  # Convert from microseconds to seconds
         total_time = max(total_cpu_time, total_gpu_time)
-        execution_info['total_gpu_time'] = total_gpu_time
-        execution_info['total_gpu_memory'] = total_gpu_memory
+        execution_info['total_gpu_time (seconds)'] = total_gpu_time
+        execution_info['total_gpu_memory (MB)'] = total_gpu_memory
     else: total_time = total_cpu_time
   
     avg_time_batch = total_time / num_batches
@@ -81,6 +81,7 @@ def inference(model, dataloader, real_redshift, device, batch_size):
     execution_info['execution_time_per_batch'] = avg_time_batch
     # Throughput in bits per second (using total_time for all batches)
     execution_info['throughput_bps'] = total_data_bits / total_time
+    execution_info['sample_persec'] = num_samples / total_time,  # Number of samples processed per second
     print(execution_info)
 
 #This is the engine module for invoking and calling various modules
@@ -97,7 +98,7 @@ if __name__ == '__main__':
     parser.add_argument('--batch_size', type=int, default=32)
     parser.add_argument('--data_path', type = str, default = 'resized_inference.pt')
     parser.add_argument('--model_path', type = str, default  = '../Fine_Tune_Model/Mixed_Inception_z_VITAE_Base_Img_Full_New_Full.pt')
-    parser.add_argument('--device', type = str, default = 'cpu', choices=['cpu', 'cuda'])    # To run on GPU, put cuda, and on CPU put cpu
+    parser.add_argument('--device', type = str, default = 'cuda', choices=['cpu', 'cuda'])    # To run on GPU, put cuda, and on CPU put cpu
 
     args = parser.parse_args()
     engine(args)
