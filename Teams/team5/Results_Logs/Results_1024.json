@@ -1,0 +1,31 @@
+{
+  "total_cpu_time": 7.56,
+  "total_cpu_memory": 14335.89,
+  "execution_time": 7.56,
+  "num_batches": 1,
+  "batch_size": 1024,
+  "device": "cpu",
+  "throughput_bps": 135.45,
+  "sample_persec": 135.45,
+  "mae": 0.013156,
+  "mse": 0.000412,
+  "bias": 0.003124,
+  "precision": 0.012045,
+  "r2": 0.962891,
+  "total_samples": 1024,
+  "rank": 0,
+  "world_size": 2,
+  "system_info": {
+    "cpu_info": {
+      "processor": "Intel(R) Xeon(R) Processor",
+      "architecture": ("64bit", "ELF"),
+      "machine": "x86_64",
+      "system": "Linux",
+      "platform": "Linux-4.14.232-176.381.amzn2.x86_64-x86_64-with-glibc2.17"
+    },
+    "ram_gb": 3.0,
+    "python_version": "3.9.16"
+  },
+  "result_path": "/tmp/results/0.json",
+  "data_path": "/tmp/scripts/Anomaly Detection/Inference/resized_inference.pt"
+} 
