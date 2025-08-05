@@ -103,7 +103,7 @@ S3 Bucket Structure:
 │           └── Mixed_Inception_z_VITAE_Base_Img_Full_New_Full.pt
 ├── data/
 │   ├── images/ (32x32 pixel astronomical images)
-│   └── metadata/ (photometric magnitudes u, g, r, i, z)
+│   └── metadata/ 
 └── results/
     └── [execution outputs]
 ```
@@ -215,8 +215,6 @@ The following results were captured from our execution of the inference model on
 
 Experimenting with different `world_size` values in *AWS Step Functions with Lambda* revealed that increasing parallelism helps scalability but provides diminishing returns in performance beyond a certain point. Execution times varied, with lower `world_size` combinations being more cost-effective and time-efficient. Memory utilization was constant across workloads, allowing for better resource allocation.
 
-![Step Function Results](Pics/step_function_results.png)
-
 ### Cosmic AI Performance
 
 The Cosmic AI section represents the execution of the inference model using our team's Step Function/State Machine and S3 bucket. This section also captures our performance of parallel distribution using the Step Function and our S3 bucket.
@@ -266,8 +264,6 @@ The following JSON files provide the raw data used to calculate the results in t
 - **Batch Size 512**: Batch size 512 demonstrates the best overall balance. Its billed duration (**11.89 seconds**) is close to batch size 256, but its max memory usage (**678 MB**) is substantially lower, making it the most cost-efficient option.
 
 - **Batch Size 1024**: Batch size 1024 is the least efficient of the three. It uses the most max memory (**3420 MB**) and has the highest billed duration (**14.23 seconds**). While it can handle large batches, it is costly and slow, making it unsuitable for most use cases.
-
-![Performance Comparison](Pics/performance_comparison.png)
 
 ---
 
