@@ -1,0 +1,223 @@
+[
+  {
+    "config_id": "P1_01",
+    "phase": "world_size_optimization",
+    "test_params": {
+      "world_size": 65
+    },
+    "execution_time": 0.32973361015319824,
+    "estimated_cost": 0.3911,
+    "status_code": 200,
+    "success": true,
+    "timestamp": "2025-07-31T18:15:35.876327",
+    "simulated": false
+  },
+  {
+    "config_id": "P1_02",
+    "phase": "world_size_optimization",
+    "test_params": {
+      "world_size": 80
+    },
+    "execution_time": 0.4029257297515869,
+    "estimated_cost": 0.4813,
+    "status_code": 200,
+    "success": true,
+    "timestamp": "2025-07-31T18:15:37.279861",
+    "simulated": false
+  },
+  {
+    "config_id": "P1_03",
+    "phase": "world_size_optimization",
+    "test_params": {
+      "world_size": 100
+    },
+    "execution_time": 0.3390688896179199,
+    "estimated_cost": 0.6016,
+    "status_code": 200,
+    "success": true,
+    "timestamp": "2025-07-31T18:15:38.619466",
+    "simulated": false
+  },
+  {
+    "config_id": "P1_04",
+    "phase": "world_size_optimization",
+    "test_params": {
+      "world_size": 130
+    },
+    "execution_time": 0.338254451751709,
+    "estimated_cost": 0.7821,
+    "status_code": 200,
+    "success": true,
+    "timestamp": "2025-07-31T18:15:39.958242",
+    "simulated": false
+  },
+  {
+    "config_id": "P1_05",
+    "phase": "world_size_optimization",
+    "test_params": {
+      "world_size": 160
+    },
+    "execution_time": 0.3487415313720703,
+    "estimated_cost": 0.9626,
+    "status_code": 200,
+    "success": true,
+    "timestamp": "2025-07-31T18:15:41.307498",
+    "simulated": false
+  },
+  {
+    "config_id": "P1_06",
+    "phase": "world_size_optimization",
+    "test_params": {
+      "world_size": 200
+    },
+    "execution_time": 0.334761381149292,
+    "estimated_cost": 1.2032,
+    "status_code": 200,
+    "success": true,
+    "timestamp": "2025-07-31T18:15:42.642786",
+    "simulated": false
+  },
+  {
+    "config_id": "P2_07",
+    "phase": "batch_size_optimization",
+    "test_params": {
+      "batch_size": 64
+    },
+    "execution_time": 0.33133983612060547,
+    "estimated_cost": 0.3008,
+    "status_code": 200,
+    "success": true,
+    "timestamp": "2025-07-31T18:15:43.974654",
+    "simulated": false
+  },
+  {
+    "config_id": "P2_08",
+    "phase": "batch_size_optimization",
+    "test_params": {
+      "batch_size": 128
+    },
+    "execution_time": 0.30634093284606934,
+    "estimated_cost": 0.6016,
+    "status_code": 200,
+    "success": true,
+    "timestamp": "2025-07-31T18:15:45.281554",
+    "simulated": false
+  },
+  {
+    "config_id": "P2_09",
+    "phase": "batch_size_optimization",
+    "test_params": {
+      "batch_size": 192
+    },
+    "execution_time": 0.32372093200683594,
+    "estimated_cost": 0.9024,
+    "status_code": 200,
+    "success": true,
+    "timestamp": "2025-07-31T18:15:46.605677",
+    "simulated": false
+  },
+  {
+    "config_id": "P2_10",
+    "phase": "batch_size_optimization",
+    "test_params": {
+      "batch_size": 256
+    },
+    "execution_time": 0.3118932247161865,
+    "estimated_cost": 1.2032,
+    "status_code": 200,
+    "success": true,
+    "timestamp": "2025-07-31T18:15:47.918070",
+    "simulated": false
+  },
+  {
+    "config_id": "P2_11",
+    "phase": "batch_size_optimization",
+    "test_params": {
+      "batch_size": 384
+    },
+    "execution_time": 0.31508827209472656,
+    "estimated_cost": 1.8048,
+    "status_code": 200,
+    "success": true,
+    "timestamp": "2025-07-31T18:15:49.233629",
+    "simulated": false
+  },
+  {
+    "config_id": "P2_12",
+    "phase": "batch_size_optimization",
+    "test_params": {
+      "batch_size": 512
+    },
+    "execution_time": 0.3256566524505615,
+    "estimated_cost": 2.4064,
+    "status_code": 200,
+    "success": true,
+    "timestamp": "2025-07-31T18:15:50.559804",
+    "simulated": false
+  },
+  {
+    "config_id": "P3_13",
+    "phase": "chunk_size_optimization",
+    "test_params": {
+      "chunk_size": "50MB"
+    },
+    "execution_time": 0.3024327754974365,
+    "estimated_cost": 0.6016,
+    "status_code": 200,
+    "success": true,
+    "timestamp": "2025-07-31T18:15:51.862748",
+    "simulated": false
+  },
+  {
+    "config_id": "P3_14",
+    "phase": "chunk_size_optimization",
+    "test_params": {
+      "chunk_size": "75MB"
+    },
+    "execution_time": 0.33467841148376465,
+    "estimated_cost": 0.9024,
+    "status_code": 200,
+    "success": true,
+    "timestamp": "2025-07-31T18:15:53.197945",
+    "simulated": false
+  },
+  {
+    "config_id": "P3_15",
+    "phase": "chunk_size_optimization",
+    "test_params": {
+      "chunk_size": "100MB"
+    },
+    "execution_time": 0.31400322914123535,
+    "estimated_cost": 1.2032,
+    "status_code": 200,
+    "success": true,
+    "timestamp": "2025-07-31T18:15:54.512456",
+    "simulated": false
+  },
+  {
+    "config_id": "P3_16",
+    "phase": "chunk_size_optimization",
+    "test_params": {
+      "chunk_size": "150MB"
+    },
+    "execution_time": 0.3159983158111572,
+    "estimated_cost": 1.8048,
+    "status_code": 200,
+    "success": true,
+    "timestamp": "2025-07-31T18:15:55.828954",
+    "simulated": false
+  },
+  {
+    "config_id": "P3_17",
+    "phase": "chunk_size_optimization",
+    "test_params": {
+      "chunk_size": "200MB"
+    },
+    "execution_time": 0.35474419593811035,
+    "estimated_cost": 2.4064,
+    "status_code": 200,
+    "success": true,
+    "timestamp": "2025-07-31T18:15:57.184216",
+    "simulated": false
+  }
+]

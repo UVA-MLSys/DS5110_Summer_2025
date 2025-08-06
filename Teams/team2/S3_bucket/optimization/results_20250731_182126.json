@@ -1,0 +1,257 @@
+[
+  {
+    "config_id": "P1_01",
+    "phase": "world_size_optimization",
+    "test_params": {
+      "world_size": 65
+    },
+    "execution_time": 0.31169772148132324,
+    "estimated_cost": 0.3911,
+    "status_code": 200,
+    "success": true,
+    "note": "Dependency missing but timing measured",
+    "error_type": "dependency",
+    "timestamp": "2025-07-31T18:19:51.549234",
+    "simulated": false
+  },
+  {
+    "config_id": "P1_02",
+    "phase": "world_size_optimization",
+    "test_params": {
+      "world_size": 80
+    },
+    "execution_time": 0.28778576850891113,
+    "estimated_cost": 0.4813,
+    "status_code": 200,
+    "success": true,
+    "note": "Dependency missing but timing measured",
+    "error_type": "dependency",
+    "timestamp": "2025-07-31T18:19:52.837353",
+    "simulated": false
+  },
+  {
+    "config_id": "P1_03",
+    "phase": "world_size_optimization",
+    "test_params": {
+      "world_size": 100
+    },
+    "execution_time": 0.2888805866241455,
+    "estimated_cost": 0.6016,
+    "status_code": 200,
+    "success": true,
+    "note": "Dependency missing but timing measured",
+    "error_type": "dependency",
+    "timestamp": "2025-07-31T18:19:54.126572",
+    "simulated": false
+  },
+  {
+    "config_id": "P1_04",
+    "phase": "world_size_optimization",
+    "test_params": {
+      "world_size": 130
+    },
+    "execution_time": 0.2868633270263672,
+    "estimated_cost": 0.7821,
+    "status_code": 200,
+    "success": true,
+    "note": "Dependency missing but timing measured",
+    "error_type": "dependency",
+    "timestamp": "2025-07-31T18:19:55.413760",
+    "simulated": false
+  },
+  {
+    "config_id": "P1_05",
+    "phase": "world_size_optimization",
+    "test_params": {
+      "world_size": 160
+    },
+    "execution_time": 0.31682658195495605,
+    "estimated_cost": 0.9626,
+    "status_code": 200,
+    "success": true,
+    "note": "Dependency missing but timing measured",
+    "error_type": "dependency",
+    "timestamp": "2025-07-31T18:19:56.730911",
+    "simulated": false
+  },
+  {
+    "config_id": "P1_06",
+    "phase": "world_size_optimization",
+    "test_params": {
+      "world_size": 200
+    },
+    "execution_time": 0.2808232307434082,
+    "estimated_cost": 1.2032,
+    "status_code": 200,
+    "success": true,
+    "note": "Dependency missing but timing measured",
+    "error_type": "dependency",
+    "timestamp": "2025-07-31T18:19:58.012060",
+    "simulated": false
+  },
+  {
+    "config_id": "P2_07",
+    "phase": "batch_size_optimization",
+    "test_params": {
+      "batch_size": 64
+    },
+    "execution_time": 0.29204630851745605,
+    "estimated_cost": 0.3008,
+    "status_code": 200,
+    "success": true,
+    "note": "Dependency missing but timing measured",
+    "error_type": "dependency",
+    "timestamp": "2025-07-31T18:19:59.304426",
+    "simulated": false
+  },
+  {
+    "config_id": "P2_08",
+    "phase": "batch_size_optimization",
+    "test_params": {
+      "batch_size": 128
+    },
+    "execution_time": 0.2906510829925537,
+    "estimated_cost": 0.6016,
+    "status_code": 200,
+    "success": true,
+    "note": "Dependency missing but timing measured",
+    "error_type": "dependency",
+    "timestamp": "2025-07-31T18:20:00.595383",
+    "simulated": false
+  },
+  {
+    "config_id": "P2_09",
+    "phase": "batch_size_optimization",
+    "test_params": {
+      "batch_size": 192
+    },
+    "execution_time": 0.290926456451416,
+    "estimated_cost": 0.9024,
+    "status_code": 200,
+    "success": true,
+    "note": "Dependency missing but timing measured",
+    "error_type": "dependency",
+    "timestamp": "2025-07-31T18:20:01.886629",
+    "simulated": false
+  },
+  {
+    "config_id": "P2_10",
+    "phase": "batch_size_optimization",
+    "test_params": {
+      "batch_size": 256
+    },
+    "execution_time": 0.28565001487731934,
+    "estimated_cost": 1.2032,
+    "status_code": 200,
+    "success": true,
+    "note": "Dependency missing but timing measured",
+    "error_type": "dependency",
+    "timestamp": "2025-07-31T18:20:03.172583",
+    "simulated": false
+  },
+  {
+    "config_id": "P2_11",
+    "phase": "batch_size_optimization",
+    "test_params": {
+      "batch_size": 384
+    },
+    "execution_time": 0.2942163944244385,
+    "estimated_cost": 1.8048,
+    "status_code": 200,
+    "success": true,
+    "note": "Dependency missing but timing measured",
+    "error_type": "dependency",
+    "timestamp": "2025-07-31T18:20:04.467112",
+    "simulated": false
+  },
+  {
+    "config_id": "P2_12",
+    "phase": "batch_size_optimization",
+    "test_params": {
+      "batch_size": 512
+    },
+    "execution_time": 0.2885549068450928,
+    "estimated_cost": 2.4064,
+    "status_code": 200,
+    "success": true,
+    "note": "Dependency missing but timing measured",
+    "error_type": "dependency",
+    "timestamp": "2025-07-31T18:20:05.755995",
+    "simulated": false
+  },
+  {
+    "config_id": "P3_13",
+    "phase": "chunk_size_optimization",
+    "test_params": {
+      "chunk_size": "50MB"
+    },
+    "execution_time": 0.288693904876709,
+    "estimated_cost": 0.6016,
+    "status_code": 200,
+    "success": true,
+    "note": "Dependency missing but timing measured",
+    "error_type": "dependency",
+    "timestamp": "2025-07-31T18:20:07.044994",
+    "simulated": false
+  },
+  {
+    "config_id": "P3_14",
+    "phase": "chunk_size_optimization",
+    "test_params": {
+      "chunk_size": "75MB"
+    },
+    "execution_time": 0.279416561126709,
+    "estimated_cost": 0.9024,
+    "status_code": 200,
+    "success": true,
+    "note": "Dependency missing but timing measured",
+    "error_type": "dependency",
+    "timestamp": "2025-07-31T18:20:08.324717",
+    "simulated": false
+  },
+  {
+    "config_id": "P3_15",
+    "phase": "chunk_size_optimization",
+    "test_params": {
+      "chunk_size": "100MB"
+    },
+    "execution_time": 0.29666829109191895,
+    "estimated_cost": 1.2032,
+    "status_code": 200,
+    "success": true,
+    "note": "Dependency missing but timing measured",
+    "error_type": "dependency",
+    "timestamp": "2025-07-31T18:20:09.621693",
+    "simulated": false
+  },
+  {
+    "config_id": "P3_16",
+    "phase": "chunk_size_optimization",
+    "test_params": {
+      "chunk_size": "150MB"
+    },
+    "execution_time": 0.33773303031921387,
+    "estimated_cost": 1.8048,
+    "status_code": 200,
+    "success": true,
+    "note": "Dependency missing but timing measured",
+    "error_type": "dependency",
+    "timestamp": "2025-07-31T18:20:10.959756",
+    "simulated": false
+  },
+  {
+    "config_id": "P3_17",
+    "phase": "chunk_size_optimization",
+    "test_params": {
+      "chunk_size": "200MB"
+    },
+    "execution_time": 0.2865469455718994,
+    "estimated_cost": 2.4064,
+    "status_code": 200,
+    "success": true,
+    "note": "Dependency missing but timing measured",
+    "error_type": "dependency",
+    "timestamp": "2025-07-31T18:20:12.246638",
+    "simulated": false
+  }
+]
