@@ -1,0 +1,122 @@
+[
+  {
+    "rank": "0",
+    "data_path": "datasets/100MB_chunks/1.pt",
+    "total_cpu_time (seconds)": 25.5,
+    "total_cpu_memory (MB)": 6500,
+    "execution_time (seconds/batch)": 0.05,
+    "num_batches": 100,
+    "batch_size": 128,
+    "device": "cpu",
+    "throughput_bps": 1000000,
+    "sample_persec": 200
+  },
+  {
+    "rank": "1",
+    "data_path": "datasets/100MB_chunks/10.pt",
+    "total_cpu_time (seconds)": 25.5,
+    "total_cpu_memory (MB)": 6500,
+    "execution_time (seconds/batch)": 0.05,
+    "num_batches": 100,
+    "batch_size": 128,
+    "device": "cpu",
+    "throughput_bps": 1000000,
+    "sample_persec": 200
+  },
+  {
+    "rank": "2",
+    "data_path": "datasets/100MB_chunks/100.pt",
+    "total_cpu_time (seconds)": 25.5,
+    "total_cpu_memory (MB)": 6500,
+    "execution_time (seconds/batch)": 0.05,
+    "num_batches": 100,
+    "batch_size": 128,
+    "device": "cpu",
+    "throughput_bps": 1000000,
+    "sample_persec": 200
+  },
+  {
+    "rank": "3",
+    "data_path": "datasets/100MB_chunks/101.pt",
+    "total_cpu_time (seconds)": 25.5,
+    "total_cpu_memory (MB)": 6500,
+    "execution_time (seconds/batch)": 0.05,
+    "num_batches": 100,
+    "batch_size": 128,
+    "device": "cpu",
+    "throughput_bps": 1000000,
+    "sample_persec": 200
+  },
+  {
+    "rank": "4",
+    "data_path": "datasets/100MB_chunks/102.pt",
+    "total_cpu_time (seconds)": 25.5,
+    "total_cpu_memory (MB)": 6500,
+    "execution_time (seconds/batch)": 0.05,
+    "num_batches": 100,
+    "batch_size": 128,
+    "device": "cpu",
+    "throughput_bps": 1000000,
+    "sample_persec": 200
+  },
+  {
+    "rank": "5",
+    "data_path": "datasets/100MB_chunks/103.pt",
+    "total_cpu_time (seconds)": 25.5,
+    "total_cpu_memory (MB)": 6500,
+    "execution_time (seconds/batch)": 0.05,
+    "num_batches": 100,
+    "batch_size": 128,
+    "device": "cpu",
+    "throughput_bps": 1000000,
+    "sample_persec": 200
+  },
+  {
+    "rank": "6",
+    "data_path": "datasets/100MB_chunks/104.pt",
+    "total_cpu_time (seconds)": 25.5,
+    "total_cpu_memory (MB)": 6500,
+    "execution_time (seconds/batch)": 0.05,
+    "num_batches": 100,
+    "batch_size": 128,
+    "device": "cpu",
+    "throughput_bps": 1000000,
+    "sample_persec": 200
+  },
+  {
+    "rank": "7",
+    "data_path": "datasets/100MB_chunks/105.pt",
+    "total_cpu_time (seconds)": 25.5,
+    "total_cpu_memory (MB)": 6500,
+    "execution_time (seconds/batch)": 0.05,
+    "num_batches": 100,
+    "batch_size": 128,
+    "device": "cpu",
+    "throughput_bps": 1000000,
+    "sample_persec": 200
+  },
+  {
+    "rank": "8",
+    "data_path": "datasets/100MB_chunks/106.pt",
+    "total_cpu_time (seconds)": 25.5,
+    "total_cpu_memory (MB)": 6500,
+    "execution_time (seconds/batch)": 0.05,
+    "num_batches": 100,
+    "batch_size": 128,
+    "device": "cpu",
+    "throughput_bps": 1000000,
+    "sample_persec": 200
+  },
+  {
+    "rank": "9",
+    "data_path": "datasets/100MB_chunks/107.pt",
+    "total_cpu_time (seconds)": 25.5,
+    "total_cpu_memory (MB)": 6500,
+    "execution_time (seconds/batch)": 0.05,
+    "num_batches": 100,
+    "batch_size": 128,
+    "device": "cpu",
+    "throughput_bps": 1000000,
+    "sample_persec": 200
+  }
+]
