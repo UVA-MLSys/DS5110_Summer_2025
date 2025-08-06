@@ -64,10 +64,13 @@ Modern astronomy generates terabytes of high-resolution sky imagery, often requi
 - **Data Format**: PyTorch TensorDataset  
 - **Sample Shape**: `[64, 64, 5]` – each sample is a multi-band astronomical image
 
-- **Dataset Sizes**:
+- **Dataset Sizes for Step 3 & 4)**:
   - Small: 250 samples
   - Medium: 626 samples
   - Large: 1253 samples
+ 
+- **Dataset Sizes for Final**:
+  - s3://team2-cosmical-7078ea12/datasets/
 
 - **Processing Pipeline**:
   1. Download the full dataset (`total.pt`) from the Google Drive link above.
