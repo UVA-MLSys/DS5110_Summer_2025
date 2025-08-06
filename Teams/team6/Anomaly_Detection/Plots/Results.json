@@ -1,0 +1,13 @@
+{
+     "total execution time": 131.83914375305176,
+     "throughput": 31118881.716076322,
+     "average execution time (milliseconds) per batch": 168.80812260313925,
+     "batch size": 32,
+     "number of batches": 781,
+     "device": "cpu",
+     "MAE": 0.01336825733453455,
+     "MSE": 0.0003767368048620285,
+     "Bias": 0.002923277978249915,
+     "Precision": 0.011839682161808014,
+     "R2": 0.9684378430247307
+}

@@ -1,0 +1,40 @@
+{
+     "System": "Windows",
+     "Node Name": "MEL",
+     "Release": "10",
+     "Version": "10.0.22631",
+     "Machine": "AMD64",
+     "Processor": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",
+     "GPU Info": "No GPU available",
+     "CPU Info": {
+          "Physical Cores": 8,
+          "Total Cores": 16,
+          "Max Frequency": "2000.00Mhz",
+          "Min Frequency": "0.00Mhz",
+          "Current Frequency": "1808.00Mhz",
+          "Total CPU Usage": "17.8%",
+          "Per Core Usage": [
+               "17.7%",
+               "23.6%",
+               "30.5%",
+               "28.9%",
+               "8.1%",
+               "8.8%",
+               "21.5%",
+               "24.3%",
+               "2.4%",
+               "2.5%",
+               "18.4%",
+               "19.7%",
+               "2.9%",
+               "3.0%",
+               "48.6%",
+               "24.7%"
+          ]
+     },
+     "Memory Info": {
+          "Total Memory": "15.34 GB",
+          "Available Memory": "10.71 GB",
+          "Memory Usage": "30.2%"
+     }
+}
