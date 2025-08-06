@@ -1,0 +1,69 @@
+{
+  "team2_state_machine": "team2-COSMIC-AI-7078ea12",
+  "team2_bucket": "team2-cosmical-7078ea12",
+  "unique_id": "7078ea12",
+  "total_scenarios": 5,
+  "executions": [
+    {
+      "scenario": 1,
+      "execution_arn": "arn:aws:states:us-east-1:211125778552:execution:team2-COSMIC-AI-7078ea12:team2-fmi-test-1-1753116845",
+      "execution_name": "team2-fmi-test-1-1753116845",
+      "status": "SUCCEEDED",
+      "world_size": 1,
+      "batch_size": 16,
+      "bucket": "team2-cosmical-7078ea12",
+      "state_transitions_verified": true,
+      "state_machine": "team2-COSMIC-AI-7078ea12"
+    },
+    {
+      "scenario": 2,
+      "execution_arn": "arn:aws:states:us-east-1:211125778552:execution:team2-COSMIC-AI-7078ea12:team2-fmi-test-2-1753116860",
+      "execution_name": "team2-fmi-test-2-1753116860",
+      "status": "SUCCEEDED",
+      "world_size": 1,
+      "batch_size": 32,
+      "bucket": "team2-cosmical-7078ea12",
+      "state_transitions_verified": true,
+      "state_machine": "team2-COSMIC-AI-7078ea12"
+    },
+    {
+      "scenario": 3,
+      "execution_arn": "arn:aws:states:us-east-1:211125778552:execution:team2-COSMIC-AI-7078ea12:team2-fmi-test-3-1753116875",
+      "execution_name": "team2-fmi-test-3-1753116875",
+      "status": "SUCCEEDED",
+      "world_size": 2,
+      "batch_size": 16,
+      "bucket": "team2-cosmical-7078ea12",
+      "state_transitions_verified": true,
+      "state_machine": "team2-COSMIC-AI-7078ea12"
+    },
+    {
+      "scenario": 4,
+      "execution_arn": "arn:aws:states:us-east-1:211125778552:execution:team2-COSMIC-AI-7078ea12:team2-fmi-test-4-1753116890",
+      "execution_name": "team2-fmi-test-4-1753116890",
+      "status": "SUCCEEDED",
+      "world_size": 2,
+      "batch_size": 32,
+      "bucket": "team2-cosmical-7078ea12",
+      "state_transitions_verified": true,
+      "state_machine": "team2-COSMIC-AI-7078ea12"
+    },
+    {
+      "scenario": 5,
+      "execution_arn": "arn:aws:states:us-east-1:211125778552:execution:team2-COSMIC-AI-7078ea12:team2-fmi-test-5-1753116905",
+      "execution_name": "team2-fmi-test-5-1753116905",
+      "status": "SUCCEEDED",
+      "world_size": 2,
+      "batch_size": 64,
+      "bucket": "team2-cosmical-7078ea12",
+      "state_transitions_verified": true,
+      "state_machine": "team2-COSMIC-AI-7078ea12"
+    }
+  ],
+  "summary": {
+    "succeeded": 5,
+    "failed": 0,
+    "skipped": 0,
+    "transitions_verified": 5
+  }
+}

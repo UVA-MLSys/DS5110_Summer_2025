@@ -1,0 +1,18 @@
+{
+  "workflow_execution": "step5-demo",
+  "world_size": 2,
+  "combined_results": [
+    {
+      "rank": 0,
+      "status": "completed",
+      "records_processed": 32
+    },
+    {
+      "rank": 1,
+      "status": "completed",
+      "records_processed": 32
+    }
+  ],
+  "total_records": 64,
+  "processing_time": "4.2 seconds"
+}

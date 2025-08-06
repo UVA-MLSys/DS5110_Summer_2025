@@ -1,0 +1,16 @@
+{
+  "total cpu time (second)": 13.98,
+  "total gpu time (second)": 0.0,
+  "execution time per batch (second)": 0.1769620253164557,
+  "cpu memory (MB)": 25126.06,
+  "gpu memory (MB)": 0.0,
+  "throughput(bps)": 14710990,
+  "batch size": 16,
+  "number of batches": 79,
+  "device": "cpu",
+  "MAE": 0.01251969638102928,
+  "MSE": 0.0002972779993238396,
+  "Bias": 0.0020244850317002864,
+  "Precision": 0.011360399723052979,
+  "R2": 0.9746744092553854
+}

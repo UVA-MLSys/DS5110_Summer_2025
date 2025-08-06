@@ -1,0 +1,38 @@
+{
+  "execution_id": "step5-execution-1753127540",
+  "execution_arn": "arn:aws:states:us-east-1:211125778552:execution:team2-COSMIC-AI-7078ea12:step5-execution-1753127540",
+  "workflow_name": "team2-COSMIC-AI-7078ea12",
+  "start_time": "2025-07-21T19:52:20.755103",
+  "end_time": "2025-07-21T19:52:25.852891",
+  "actual_duration_seconds": 5.097788,
+  "status": "SUCCEEDED",
+  "world_size": 2,
+  "batch_size": 64,
+  "input_configuration": {
+    "bucket": "team2-cosmical-7078ea12",
+    "file_limit": "1000",
+    "object_type": "batch_json",
+    "script": "/tmp/cosmic_inference_workflow",
+    "data_bucket": "team2-cosmical-7078ea12",
+    "data_prefix": "datasets",
+    "rendezvous_endpoint": "rendezvous.uva-ds5110.com:10000",
+    "unique_id": "7078ea12",
+    "test_mode": true,
+    "fmi_enabled": true,
+    "data_size": "medium",
+    "batch_size": 64,
+    "world_size": 2,
+    "S3_object_name": "batch_2.json",
+    "result_path": "results/world_2",
+    "data_map": {
+      "0": null,
+      "1": null
+    }
+  },
+  "execution_output": "{\"statusCode\": 200, \"body\": \"\\\"Combined data uploaded to results/combined_data.json\\\"\"}",
+  "processing_summary": {
+    "total_tasks": 2,
+    "configuration_loaded": true,
+    "execution_completed": true
+  }
+}

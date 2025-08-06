@@ -1,0 +1,315 @@
+{
+  "measurement_timestamp": "2025-07-21T20:00:50.267941",
+  "total_tests_run": 20,
+  "successful_tests": 20,
+  "test_configurations": [
+    {
+      "world_size": 1,
+      "batch_size": 8
+    },
+    {
+      "world_size": 1,
+      "batch_size": 16
+    },
+    {
+      "world_size": 1,
+      "batch_size": 32
+    },
+    {
+      "world_size": 1,
+      "batch_size": 64
+    },
+    {
+      "world_size": 1,
+      "batch_size": 128
+    },
+    {
+      "world_size": 2,
+      "batch_size": 8
+    },
+    {
+      "world_size": 2,
+      "batch_size": 16
+    },
+    {
+      "world_size": 2,
+      "batch_size": 32
+    },
+    {
+      "world_size": 2,
+      "batch_size": 64
+    },
+    {
+      "world_size": 2,
+      "batch_size": 128
+    },
+    {
+      "world_size": 3,
+      "batch_size": 8
+    },
+    {
+      "world_size": 3,
+      "batch_size": 16
+    },
+    {
+      "world_size": 3,
+      "batch_size": 32
+    },
+    {
+      "world_size": 3,
+      "batch_size": 64
+    },
+    {
+      "world_size": 3,
+      "batch_size": 128
+    },
+    {
+      "world_size": 4,
+      "batch_size": 8
+    },
+    {
+      "world_size": 4,
+      "batch_size": 16
+    },
+    {
+      "world_size": 4,
+      "batch_size": 32
+    },
+    {
+      "world_size": 4,
+      "batch_size": 64
+    },
+    {
+      "world_size": 4,
+      "batch_size": 128
+    }
+  ],
+  "performance_data": [
+    {
+      "test_number": 1,
+      "world_size": 1,
+      "batch_size": 8,
+      "duration_seconds": 6.11,
+      "memory_mb": 128,
+      "cost_usd": 0.00028733,
+      "status": "SUCCEEDED",
+      "execution_name": "perf-test-1-1753127926",
+      "throughput_rps": 1.31
+    },
+    {
+      "test_number": 2,
+      "world_size": 1,
+      "batch_size": 16,
+      "duration_seconds": 5.1,
+      "memory_mb": 128,
+      "cost_usd": 0.00028114,
+      "status": "SUCCEEDED",
+      "execution_name": "perf-test-2-1753127932",
+      "throughput_rps": 3.14
+    },
+    {
+      "test_number": 3,
+      "world_size": 1,
+      "batch_size": 32,
+      "duration_seconds": 5.1,
+      "memory_mb": 128,
+      "cost_usd": 0.00028117,
+      "status": "SUCCEEDED",
+      "execution_name": "perf-test-3-1753127937",
+      "throughput_rps": 6.27
+    },
+    {
+      "test_number": 4,
+      "world_size": 1,
+      "batch_size": 64,
+      "duration_seconds": 5.1,
+      "memory_mb": 128,
+      "cost_usd": 0.00028114,
+      "status": "SUCCEEDED",
+      "execution_name": "perf-test-4-1753127942",
+      "throughput_rps": 12.55
+    },
+    {
+      "test_number": 5,
+      "world_size": 1,
+      "batch_size": 128,
+      "duration_seconds": 5.11,
+      "memory_mb": 128,
+      "cost_usd": 0.00028119,
+      "status": "SUCCEEDED",
+      "execution_name": "perf-test-5-1753127948",
+      "throughput_rps": 25.06
+    },
+    {
+      "test_number": 6,
+      "world_size": 2,
+      "batch_size": 8,
+      "duration_seconds": 5.13,
+      "memory_mb": 128,
+      "cost_usd": 0.00031261,
+      "status": "SUCCEEDED",
+      "execution_name": "perf-test-6-1753127953",
+      "throughput_rps": 3.12
+    },
+    {
+      "test_number": 7,
+      "world_size": 2,
+      "batch_size": 16,
+      "duration_seconds": 5.11,
+      "memory_mb": 128,
+      "cost_usd": 0.00031236,
+      "status": "SUCCEEDED",
+      "execution_name": "perf-test-7-1753127958",
+      "throughput_rps": 6.27
+    },
+    {
+      "test_number": 8,
+      "world_size": 2,
+      "batch_size": 32,
+      "duration_seconds": 5.1,
+      "memory_mb": 128,
+      "cost_usd": 0.00031234,
+      "status": "SUCCEEDED",
+      "execution_name": "perf-test-8-1753127963",
+      "throughput_rps": 12.54
+    },
+    {
+      "test_number": 9,
+      "world_size": 2,
+      "batch_size": 64,
+      "duration_seconds": 5.1,
+      "memory_mb": 128,
+      "cost_usd": 0.00031229,
+      "status": "SUCCEEDED",
+      "execution_name": "perf-test-9-1753127968",
+      "throughput_rps": 25.1
+    },
+    {
+      "test_number": 10,
+      "world_size": 2,
+      "batch_size": 128,
+      "duration_seconds": 5.1,
+      "memory_mb": 128,
+      "cost_usd": 0.00031232,
+      "status": "SUCCEEDED",
+      "execution_name": "perf-test-10-1753127973",
+      "throughput_rps": 50.17
+    },
+    {
+      "test_number": 11,
+      "world_size": 3,
+      "batch_size": 8,
+      "duration_seconds": 8.17,
+      "memory_mb": 128,
+      "cost_usd": 0.00039966,
+      "status": "SUCCEEDED",
+      "execution_name": "perf-test-11-1753127979",
+      "throughput_rps": 2.94
+    },
+    {
+      "test_number": 12,
+      "world_size": 3,
+      "batch_size": 16,
+      "duration_seconds": 6.12,
+      "memory_mb": 128,
+      "cost_usd": 0.00036207,
+      "status": "SUCCEEDED",
+      "execution_name": "perf-test-12-1753127987",
+      "throughput_rps": 7.85
+    },
+    {
+      "test_number": 13,
+      "world_size": 3,
+      "batch_size": 32,
+      "duration_seconds": 6.11,
+      "memory_mb": 128,
+      "cost_usd": 0.00036198,
+      "status": "SUCCEEDED",
+      "execution_name": "perf-test-13-1753127993",
+      "throughput_rps": 15.71
+    },
+    {
+      "test_number": 14,
+      "world_size": 3,
+      "batch_size": 64,
+      "duration_seconds": 6.11,
+      "memory_mb": 128,
+      "cost_usd": 0.00036202,
+      "status": "SUCCEEDED",
+      "execution_name": "perf-test-14-1753127999",
+      "throughput_rps": 31.4
+    },
+    {
+      "test_number": 15,
+      "world_size": 3,
+      "batch_size": 128,
+      "duration_seconds": 6.17,
+      "memory_mb": 128,
+      "cost_usd": 0.00036309,
+      "status": "SUCCEEDED",
+      "execution_name": "perf-test-15-1753128005",
+      "throughput_rps": 62.21
+    },
+    {
+      "test_number": 16,
+      "world_size": 4,
+      "batch_size": 8,
+      "duration_seconds": 10.21,
+      "memory_mb": 128,
+      "cost_usd": 0.00049936,
+      "status": "SUCCEEDED",
+      "execution_name": "perf-test-16-1753128012",
+      "throughput_rps": 3.13
+    },
+    {
+      "test_number": 17,
+      "world_size": 4,
+      "batch_size": 16,
+      "duration_seconds": 7.13,
+      "memory_mb": 128,
+      "cost_usd": 0.0004242,
+      "status": "SUCCEEDED",
+      "execution_name": "perf-test-17-1753128022",
+      "throughput_rps": 8.97
+    },
+    {
+      "test_number": 18,
+      "world_size": 4,
+      "batch_size": 32,
+      "duration_seconds": 6.13,
+      "memory_mb": 128,
+      "cost_usd": 0.00039965,
+      "status": "SUCCEEDED",
+      "execution_name": "perf-test-18-1753128029",
+      "throughput_rps": 20.89
+    },
+    {
+      "test_number": 19,
+      "world_size": 4,
+      "batch_size": 64,
+      "duration_seconds": 7.12,
+      "memory_mb": 128,
+      "cost_usd": 0.00042402,
+      "status": "SUCCEEDED",
+      "execution_name": "perf-test-19-1753128035",
+      "throughput_rps": 35.93
+    },
+    {
+      "test_number": 20,
+      "world_size": 4,
+      "batch_size": 128,
+      "duration_seconds": 7.17,
+      "memory_mb": 128,
+      "cost_usd": 0.00042512,
+      "status": "SUCCEEDED",
+      "execution_name": "perf-test-20-1753128042",
+      "throughput_rps": 71.42
+    }
+  ],
+  "summary": {
+    "world_size_1_avg_duration": 5.304,
+    "world_size_2_avg_duration": 5.108,
+    "total_cost": 0.006995059999999999,
+    "best_throughput": 71.42
+  }
+}

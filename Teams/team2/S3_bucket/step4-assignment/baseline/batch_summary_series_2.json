@@ -1,0 +1,58 @@
+{
+  "1": {
+    "status": "success",
+    "execution_time": 923.5385010242462,
+    "results_file": "batch_experiments_series_2/results_series_2_batch_1_Results.json",
+    "stdout": "",
+    "stderr": "/home/sagemaker-user/.conda/envs/data_science_on_aws/lib/python3.7/site-packages/torch/autograd/profiler.py:176: UserWarning: CUDA is not available, disabling CUDA profiling\n  warn(\"CUDA is not available, disabling CUDA profiling\")\nSTAGE:2025-07-26 19:23:22 423:423 ActivityProfilerController.cpp:294] Completed Stage: Warm Up\nSTAGE:2025-07-26 19:24:13 423:423 ActivityProfilerController.cpp:300] Completed Stage: Collection\n"
+  },
+  "2": {
+    "status": "success",
+    "execution_time": 457.51676297187805,
+    "results_file": "batch_experiments_series_2/results_series_2_batch_2_Results.json",
+    "stdout": "",
+    "stderr": "/home/sagemaker-user/.conda/envs/data_science_on_aws/lib/python3.7/site-packages/torch/autograd/profiler.py:176: UserWarning: CUDA is not available, disabling CUDA profiling\n  warn(\"CUDA is not available, disabling CUDA profiling\")\nSTAGE:2025-07-26 19:38:42 2037:2037 ActivityProfilerController.cpp:294] Completed Stage: Warm Up\nSTAGE:2025-07-26 19:39:09 2037:2037 ActivityProfilerController.cpp:300] Completed Stage: Collection\n"
+  },
+  "4": {
+    "status": "success",
+    "execution_time": 233.85019898414612,
+    "results_file": "batch_experiments_series_2/results_series_2_batch_4_Results.json",
+    "stdout": "",
+    "stderr": "/home/sagemaker-user/.conda/envs/data_science_on_aws/lib/python3.7/site-packages/torch/autograd/profiler.py:176: UserWarning: CUDA is not available, disabling CUDA profiling\n  warn(\"CUDA is not available, disabling CUDA profiling\")\nSTAGE:2025-07-26 19:46:19 2825:2825 ActivityProfilerController.cpp:294] Completed Stage: Warm Up\nSTAGE:2025-07-26 19:46:34 2825:2825 ActivityProfilerController.cpp:300] Completed Stage: Collection\n"
+  },
+  "8": {
+    "status": "success",
+    "execution_time": 121.70668578147888,
+    "results_file": "batch_experiments_series_2/results_series_2_batch_8_Results.json",
+    "stdout": "",
+    "stderr": "/home/sagemaker-user/.conda/envs/data_science_on_aws/lib/python3.7/site-packages/torch/autograd/profiler.py:176: UserWarning: CUDA is not available, disabling CUDA profiling\n  warn(\"CUDA is not available, disabling CUDA profiling\")\nSTAGE:2025-07-26 19:50:13 3237:3237 ActivityProfilerController.cpp:294] Completed Stage: Warm Up\nSTAGE:2025-07-26 19:50:21 3237:3237 ActivityProfilerController.cpp:300] Completed Stage: Collection\n"
+  },
+  "16": {
+    "status": "success",
+    "execution_time": 64.53891730308533,
+    "results_file": "batch_experiments_series_2/results_series_2_batch_16_Results.json",
+    "stdout": "",
+    "stderr": "/home/sagemaker-user/.conda/envs/data_science_on_aws/lib/python3.7/site-packages/torch/autograd/profiler.py:176: UserWarning: CUDA is not available, disabling CUDA profiling\n  warn(\"CUDA is not available, disabling CUDA profiling\")\nSTAGE:2025-07-26 19:52:14 3462:3462 ActivityProfilerController.cpp:294] Completed Stage: Warm Up\nSTAGE:2025-07-26 19:52:19 3462:3462 ActivityProfilerController.cpp:300] Completed Stage: Collection\n"
+  },
+  "32": {
+    "status": "success",
+    "execution_time": 36.16945481300354,
+    "results_file": "batch_experiments_series_2/results_series_2_batch_32_Results.json",
+    "stdout": "",
+    "stderr": "/home/sagemaker-user/.conda/envs/data_science_on_aws/lib/python3.7/site-packages/torch/autograd/profiler.py:176: UserWarning: CUDA is not available, disabling CUDA profiling\n  warn(\"CUDA is not available, disabling CUDA profiling\")\nSTAGE:2025-07-26 19:53:19 3593:3593 ActivityProfilerController.cpp:294] Completed Stage: Warm Up\nSTAGE:2025-07-26 19:53:22 3593:3593 ActivityProfilerController.cpp:300] Completed Stage: Collection\n"
+  },
+  "64": {
+    "status": "success",
+    "execution_time": 21.476445198059082,
+    "results_file": "batch_experiments_series_2/results_series_2_batch_64_Results.json",
+    "stdout": "",
+    "stderr": "/home/sagemaker-user/.conda/envs/data_science_on_aws/lib/python3.7/site-packages/torch/autograd/profiler.py:176: UserWarning: CUDA is not available, disabling CUDA profiling\n  warn(\"CUDA is not available, disabling CUDA profiling\")\nSTAGE:2025-07-26 19:53:55 3674:3674 ActivityProfilerController.cpp:294] Completed Stage: Warm Up\nSTAGE:2025-07-26 19:53:58 3674:3674 ActivityProfilerController.cpp:300] Completed Stage: Collection\n"
+  },
+  "128": {
+    "status": "success",
+    "execution_time": 14.39073657989502,
+    "results_file": "batch_experiments_series_2/results_series_2_batch_128_Results.json",
+    "stdout": "",
+    "stderr": "/home/sagemaker-user/.conda/envs/data_science_on_aws/lib/python3.7/site-packages/torch/autograd/profiler.py:176: UserWarning: CUDA is not available, disabling CUDA profiling\n  warn(\"CUDA is not available, disabling CUDA profiling\")\nSTAGE:2025-07-26 19:54:16 3729:3729 ActivityProfilerController.cpp:294] Completed Stage: Warm Up\nSTAGE:2025-07-26 19:54:19 3729:3729 ActivityProfilerController.cpp:300] Completed Stage: Collection\n"
+  }
+}

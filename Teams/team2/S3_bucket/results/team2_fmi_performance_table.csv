@@ -1,0 +1,6 @@
+world_size,batch_size,execution_time_seconds,average_memory_mb,throughput_records_per_second,cost_per_batch_usd,data_size,data_parallel_init2_memory_mb,inference_memory_mb,summarize_memory_mb,data_parallel_init2_duration_ms,inference_duration_ms,summarize_duration_ms
+1,16,4.73,85.7,3.38,6.59511952701823e-06,test,87.0,84.0,86.0,177.36,3434.29,2547.29
+1,32,4.4,85.7,7.27,6.134994908854168e-06,test,87.0,84.0,86.0,177.36,3434.29,2547.29
+2,16,4.73,85.7,6.77,1.319023905403646e-05,test,87.0,84.0,86.0,177.36,3434.29,2547.29
+2,32,4.41,85.7,14.51,1.2297876158203126e-05,test,87.0,84.0,86.0,177.36,3434.29,2547.29
+2,64,4.66,85.7,27.47,1.299503467057292e-05,test,87.0,84.0,86.0,177.36,3434.29,2547.29

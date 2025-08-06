@@ -1,0 +1,9 @@
+{
+  "total_time": 3.1235976219177246,
+  "execution_time": 0.08009224671583909,
+  "num_batches": 39,
+  "batch_size": 32,
+  "device": "cpu",
+  "throughput_bps": 65588371.102107435,
+  "sample_persec": 399.53929764928995
+}
