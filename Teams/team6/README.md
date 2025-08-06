@@ -3,6 +3,9 @@
 **Team 6**  
 Pratham Choksi and Dae Hwang
 
+## Introduction
+Inferring redshift from astronomical images requires processing a large volume of data, which can strain local hardware resources. To address this, we explored a serverless, cloud-based inference framework using AWS Lambda and Step Functions. Our objective was to determine how well this architecture scales with larger datasets and whether it can deliver both speed and cost efficiency for deep learning inference at scale. We focused on identifying the optimal partition size, batch size, and data volume that maximize throughput while minimizing runtime and cost. By experimenting with various configurations, we aimed to answer a central question: how much useful processing can we achieve with limited cloud resources and budget.
+
 ## Problem Statement
 Inferring redshift from astronomical images is a computationally demanding task, often constrained by the limitations of local hardware. This project investigates a scalable, cloud-native inference pipeline leveraging AWS Lambda and Step Functions to efficiently predict redshift values across a large dataset. We assess performance in terms of cost, execution time, and throughput across different batch and partition sizes, and compare the results against traditional local CPU-based inference.
 
@@ -37,7 +40,7 @@ Inferring redshift from astronomical images is a computationally demanding task,
 ### Benchmarks of AWS lambda
 ![Alt text](Plots/image.png)
 
-- Batch Size Scaling 
+- #### Batch Size Scaling: 
 Several batch sizes were tested to see how they affect the speed and cost of 
 the AWS Lambda inference process. As the batch size increased from 32 to 
 512, the total time to complete the task became shorter, and the system was 
@@ -53,7 +56,7 @@ a smaller batch size like 64 gave the highest efficiency in one test, batch size
 without being too expensive to run. That’s why it was used as the standard for 
 comparing partition sizes and larger datasets in the rest of the project. 
 
-- Partition Size Scaling 
+- #### Partition Size Scaling: 
 The impact of partition size on performance was tested by keeping the data 
 size at 1 GB and using the same batch size of 256. The results showed that 
 smaller partition sizes worked better overall, mostly because they allowed 
@@ -67,7 +70,7 @@ how much memory was needed. Partition sizes around 25 MB seemed to
 offer a good middle ground, with a nice balance between speed and cost for 
 medium-sized jobs. 
 
-- Scaling of Larger Data Sizes 
+- #### Scaling of Larger Data Sizes 
 To see how well the system handles bigger jobs, tests were run using larger 
 datasets ranging from 1 GB to 12 GB. Two partition sizes were used for this: 
 10 MB and 25 MB. The 10 MB partition gave the best overall performance in 
@@ -95,12 +98,16 @@ Performance efficiency, in this case, is a way to measure how much useful
 work the system does for each dollar spent. It’s like asking, “How much 
 processing time can I buy with a small amount of money?” Higher efficiency 
 means you’re getting more done at a lower cost, which is especially important 
-when working with large datasets and cloud resources. 
+when working with large datasets and cloud resources.
+### Comparison of Batch Sizes (64 vs. 256) for 10 MB Partition Performance
+![Alt text](Plots/Image-3.jpg)
+- Batch Size Comparison for Optimal Performance and Cost Efficiency
+To validate the optimal configuration for our distributed inference pipeline, we conducted a comparison between batch sizes of 64 and 256 using the same 10 MB partition and 3.98 GB dataset. This was done to determine whether increasing the batch size could improve system performance and cost-efficiency. The results confirmed that a batch size of 256 outperformed 64, both in terms of throughput and cost. Specifically, the 256-batch setup achieved a throughput of 1.4482 GB/s and a total cost of just $0.0216, while the 64-batch configuration delivered only 0.9388 GB/s throughput at a higher cost of $0.0221. These findings show that scaling up the batch size significantly enhances processing speed and resource efficiency, making it the preferred configuration for handling larger workloads.
 
 ### Benchmarks of local computer
 ![Alt text](Plots/image-1.png)
 
-- Batch Size Comparison (Local vs AWS Lambda) 
+- #### Batch Size Comparison (Local vs AWS Lambda)
 Testing on a local computer helped give a basic idea of how the system 
 performs without using cloud services. Different batch sizes were tried using a 
 small dataset of 0.1 GB. The best result came from batch size 256, which 
